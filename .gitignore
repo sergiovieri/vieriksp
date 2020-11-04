@@ -1,0 +1,7 @@
+/*
+!.gitignore
+!/GameData
+/GameData/Squad*
+!/saves
+/saves/*
+!/saves/Vieri*
