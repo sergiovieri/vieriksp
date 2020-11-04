@@ -2330,7 +2330,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.10.0
-		UT = 861635.58972029097
+		UT = 850727.03766966646
 		activeVessel = 10
 		mapViewFiltering = 31743
 		commNetUIModeTracking = Network
@@ -7622,18 +7622,18 @@ GAME
 			landedAt = 
 			displaylandedAt = 
 			splashed = False
-			met = 541921.34176067053
+			met = 531012.78971004602
 			lct = 319710.24795962038
-			lastUT = 861635.58972029097
-			distanceTraveled = 6723652.3944448633
+			lastUT = 850727.03766966646
+			distanceTraveled = 4850299.6187234493
 			root = 0
-			lat = -34.259399115732457
-			lon = -94.548368567754935
-			alt = 181913.09552727849
-			hgt = 181913.094
-			nrm = 0.8842538,-0.0125083923,-0.466839135
-			rot = 0.785747826,-0.507536769,0.282079071,0.213162586
-			CoM = 0.000102929771,-0.170218647,0.00014654547
+			lat = 17.304702552865873
+			lon = -95.887814083429944
+			alt = 233337.05469933816
+			hgt = 233337.063
+			nrm = -0.233612329,0.406389326,0.883330584
+			rot = -0.0690848231,-0.893069863,0.392098457,0.209552929
+			CoM = 7.0258975E-06,-0.170148075,9.77516174E-06
 			stg = 1
 			prst = False
 			ref = 653181590
@@ -7646,18 +7646,18 @@ GAME
 			OverrideAxisControl = 0,0,0,0
 			OverrideGroupNames = ,,,
 			altDispState = ASL
-			cPch = -1.502797
-			cHdg = -1.844
+			cPch = -1.570796
+			cHdg = -2.468
 			cMod = 0
 			ORBIT
 			{
-				SMA = 805576.23782938626
-				ECC = 0.19084079359910167
-				INC = 81.253125244832432
-				LPE = 306.89981538122879
-				LAN = 163.73260028901791
-				MNA = 0.41797538714255533
-				EPH = 859851.32409529109
+				SMA = 1387004.2719301058
+				ECC = 0.52763804695966676
+				INC = 81.481323527945278
+				LPE = 309.8991463237727
+				LAN = 163.49790404980718
+				MNA = 0.12866996327459337
+				EPH = 850519.23442747886
 				REF = 1
 			}
 			PART
@@ -7686,8 +7686,8 @@ GAME
 				attN = bottom, -1
 				mass = 1.55999994
 				shielded = False
-				temp = 362.28308076349288
-				tempExt = 346.06567528583037
+				temp = 532.1484143465932
+				tempExt = 472.32319394051274
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -8148,8 +8148,8 @@ GAME
 				srfN = srfAttach, 0,COL
 				mass = 9.99999975E-05
 				shielded = False
-				temp = 361.31993690919512
-				tempExt = 347.21382945471606
+				temp = 528.59024853923938
+				tempExt = 476.55663139663812
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -8968,8 +8968,8 @@ GAME
 				attN = bottom, 0
 				mass = 0.100000001
 				shielded = False
-				temp = 361.95290877314108
-				tempExt = 341.48928680510107
+				temp = 531.10719592307032
+				tempExt = 458.35225684052091
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -9107,8 +9107,8 @@ GAME
 				attN = bottom, -1
 				mass = 0.00499999989
 				shielded = False
-				temp = 358.49936732005665
-				tempExt = 342.79939864861808
+				temp = 519.25655360394114
+				tempExt = 464.44191378291765
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5

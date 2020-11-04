@@ -2330,7 +2330,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.10.0
-		UT = 861635.58972029097
+		UT = 857662.40425163461
 		activeVessel = 10
 		mapViewFiltering = 31743
 		commNetUIModeTracking = Network
@@ -7622,18 +7622,18 @@ GAME
 			landedAt = 
 			displaylandedAt = 
 			splashed = False
-			met = 541921.34176067053
+			met = 537952.13629201427
 			lct = 319710.24795962038
-			lastUT = 861635.58972029097
-			distanceTraveled = 6723652.3944448633
+			lastUT = 857662.40425163461
+			distanceTraveled = 5732865.3472208083
 			root = 0
-			lat = -34.259399115732457
-			lon = -94.548368567754935
-			alt = 181913.09552727849
-			hgt = 181913.094
-			nrm = 0.8842538,-0.0125083923,-0.466839135
-			rot = 0.785747826,-0.507536769,0.282079071,0.213162586
-			CoM = 0.000102929771,-0.170218647,0.00014654547
+			lat = 54.983801574888012
+			lon = -46.799557865402129
+			alt = 933277.22679821239
+			hgt = 933277.25
+			nrm = -0.647012115,0.130602002,-0.751211405
+			rot = -0.401790738,0.623030543,-0.0333377421,-0.670287848
+			CoM = 1.49011612E-07,-0.170180619,1.8261373E-05
 			stg = 1
 			prst = False
 			ref = 653181590
@@ -7651,13 +7651,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 805576.23782938626
-				ECC = 0.19084079359910167
-				INC = 81.253125244832432
-				LPE = 306.89981538122879
-				LAN = 163.73260028901791
-				MNA = 0.41797538714255533
-				EPH = 859851.32409529109
+				SMA = 1096290.6323193577
+				ECC = 0.40277569403140157
+				INC = 81.405484547779139
+				LPE = 309.46667158108704
+				LAN = 163.57924148876327
+				MNA = 2.9397387364922523
+				EPH = 857662.40425163461
 				REF = 1
 			}
 			PART
@@ -7686,8 +7686,8 @@ GAME
 				attN = bottom, -1
 				mass = 1.55999994
 				shielded = False
-				temp = 362.28308076349288
-				tempExt = 346.06567528583037
+				temp = 363.51447971264037
+				tempExt = 358.06498917364206
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -8148,8 +8148,8 @@ GAME
 				srfN = srfAttach, 0,COL
 				mass = 9.99999975E-05
 				shielded = False
-				temp = 361.31993690919512
-				tempExt = 347.21382945471606
+				temp = 362.88109684533686
+				tempExt = 355.63021827625283
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -8968,8 +8968,8 @@ GAME
 				attN = bottom, 0
 				mass = 0.100000001
 				shielded = False
-				temp = 361.95290877314108
-				tempExt = 341.48928680510107
+				temp = 363.22819840374109
+				tempExt = 357.42619495852102
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -9107,8 +9107,8 @@ GAME
 				attN = bottom, -1
 				mass = 0.00499999989
 				shielded = False
-				temp = 358.49936732005665
-				tempExt = 342.79939864861808
+				temp = 360.16044903487972
+				tempExt = 356.53001212577055
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5

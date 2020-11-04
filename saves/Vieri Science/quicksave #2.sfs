@@ -9,7 +9,7 @@ GAME
 	Status = 1
 	Seed = 328325707
 	ROCSeed = 2093424571
-	scene = 7
+	scene = 5
 	editor = None
 	flag = Squad/Flags/default
 	launchID = 21
@@ -513,6 +513,19 @@ GAME
 						crews = Bob Kerman
 					}
 				}
+				ReturnFromOrbit
+				{
+					completedManned = 862479.62106768019
+					vessel
+					{
+						name = Minmus lander
+						flag = Squad/Flags/default
+					}
+					crew
+					{
+						crews = Jebediah Kerman, Bob Kerman
+					}
+				}
 				Suborbit
 				{
 					completedManned = 460452.49670060421
@@ -530,6 +543,32 @@ GAME
 				{
 					completedManned = 446405.17986430461
 				}
+				ReturnFromFlyBy
+				{
+					completedManned = 862479.62106768019
+					vessel
+					{
+						name = Minmus lander
+						flag = Squad/Flags/default
+					}
+					crew
+					{
+						crews = Jebediah Kerman, Bob Kerman
+					}
+				}
+				ReturnFromSurface
+				{
+					completedManned = 862479.62106768019
+					vessel
+					{
+						name = Minmus lander
+						flag = Squad/Flags/default
+					}
+					crew
+					{
+						crews = Jebediah Kerman, Bob Kerman
+					}
+				}
 			}
 		}
 	}
@@ -537,7 +576,7 @@ GAME
 	{
 		name = ResearchAndDevelopment
 		scene = 7, 8, 5, 6
-		sci = 325.574158
+		sci = 1249.20374
 		Tech
 		{
 			id = start
@@ -961,9 +1000,9 @@ GAME
 			id = mysteryGoo@KerbinInSpaceLow
 			title = Mystery Goo™ Observation while in space near Kerbin
 			dsc = 1
-			scv = 0.230769232
+			scv = 0.0532544218
 			sbv = 1
-			sci = 10
+			sci = 12.3076925
 			asc = True
 			cap = 13
 		}
@@ -1742,9 +1781,9 @@ GAME
 			id = mobileMaterialsLab@KerbinFlyingHigh
 			title = Materials Study from Kerbin's upper atmosphere
 			dsc = 1
-			scv = 0.218749985
+			scv = 0.0478515364
 			sbv = 0.899999976
-			sci = 22.5
+			sci = 27.421875
 			asc = True
 			cap = 28.7999992
 		}
@@ -1797,9 +1836,9 @@ GAME
 			id = mysteryGoo@MinmusInSpaceLow
 			title = Mystery Goo™ Observation while in space near Minmus
 			dsc = 1
-			scv = 1
+			scv = 0.230769232
 			sbv = 4
-			sci = 0
+			sci = 40
 			asc = True
 			cap = 52
 		}
@@ -1808,9 +1847,9 @@ GAME
 			id = barometerScan@MinmusInSpaceLow
 			title = Atmospheric Pressure Scan while in space near Minmus
 			dsc = 1
-			scv = 1
+			scv = 0
 			sbv = 4
-			sci = 0
+			sci = 48
 			asc = True
 			cap = 48
 		}
@@ -1819,9 +1858,9 @@ GAME
 			id = temperatureScan@MinmusInSpaceLow
 			title = Temperature Scan while in space near Minmus
 			dsc = 1
-			scv = 1
+			scv = 0
 			sbv = 4
-			sci = 0
+			sci = 32
 			asc = True
 			cap = 32
 		}
@@ -1830,9 +1869,9 @@ GAME
 			id = mobileMaterialsLab@MinmusInSpaceLow
 			title = Materials Study while in space near Minmus
 			dsc = 1
-			scv = 1
+			scv = 0.21875
 			sbv = 4
-			sci = 0
+			sci = 100
 			asc = True
 			cap = 128
 		}
@@ -1896,9 +1935,9 @@ GAME
 			id = mobileMaterialsLab@MinmusSrfLandedGreaterFlats
 			title = Materials Study from Minmus' Greater Flats
 			dsc = 1
-			scv = 1
+			scv = 0.21875
 			sbv = 5
-			sci = 0
+			sci = 125
 			asc = True
 			cap = 160
 		}
@@ -1918,9 +1957,9 @@ GAME
 			id = mysteryGoo@MinmusSrfLandedLowlands
 			title = Mystery Goo™ Observation from Minmus' Lowlands
 			dsc = 1
-			scv = 1
+			scv = 0.230769232
 			sbv = 5
-			sci = 0
+			sci = 50
 			asc = True
 			cap = 65
 		}
@@ -1929,9 +1968,9 @@ GAME
 			id = barometerScan@MinmusSrfLandedLowlands
 			title = Atmospheric Pressure Scan from Minmus' Lowlands
 			dsc = 1
-			scv = 1
+			scv = 0
 			sbv = 5
-			sci = 0
+			sci = 60
 			asc = True
 			cap = 60
 		}
@@ -1940,9 +1979,9 @@ GAME
 			id = temperatureScan@MinmusSrfLandedLowlands
 			title = Temperature Scan from Minmus' Lowlands
 			dsc = 1
-			scv = 1
+			scv = 0
 			sbv = 5
-			sci = 0
+			sci = 40
 			asc = True
 			cap = 40
 		}
@@ -1951,9 +1990,9 @@ GAME
 			id = evaReport@MinmusSrfLandedLowlands
 			title = EVA Report from Minmus' Lowlands
 			dsc = 1
-			scv = 1
+			scv = 0
 			sbv = 5
-			sci = 0
+			sci = 40
 			asc = True
 			cap = 40
 		}
@@ -1962,9 +2001,9 @@ GAME
 			id = surfaceSample@MinmusSrfLandedLowlands
 			title = Surface Sample from Minmus' Lowlands
 			dsc = 1
-			scv = 1
+			scv = 0.25
 			sbv = 5
-			sci = 0
+			sci = 150
 			asc = True
 			cap = 200
 		}
@@ -1973,9 +2012,9 @@ GAME
 			id = surfaceSample@MinmusSrfLandedGreaterFlats
 			title = Surface Sample from Minmus' Greater Flats
 			dsc = 1
-			scv = 1
+			scv = 0.25
 			sbv = 5
-			sci = 0
+			sci = 150
 			asc = True
 			cap = 200
 		}
@@ -1984,9 +2023,9 @@ GAME
 			id = crewReport@MinmusInSpaceHigh
 			title = Crew Report while in space high over Minmus
 			dsc = 1
-			scv = 1
+			scv = 0
 			sbv = 2.5
-			sci = 0
+			sci = 12.5
 			asc = True
 			cap = 12.5
 		}
@@ -1995,11 +2034,44 @@ GAME
 			id = evaReport@MinmusInSpaceHigh
 			title = EVA Report while in space high over Minmus
 			dsc = 1
-			scv = 1
+			scv = 0
 			sbv = 2.5
-			sci = 0
+			sci = 20
 			asc = True
 			cap = 20
+		}
+		Science
+		{
+			id = evaReport@KerbinSrfLandedBadlands
+			title = EVA Report from Kerbin's Badlands
+			dsc = 1
+			scv = 0
+			sbv = 0.300000012
+			sci = 2.4000001
+			asc = True
+			cap = 2.4000001
+		}
+		Science
+		{
+			id = surfaceSample@KerbinSrfLandedBadlands
+			title = Surface Sample from Kerbin's Badlands
+			dsc = 1
+			scv = 0.25
+			sbv = 0.300000012
+			sci = 9
+			asc = True
+			cap = 12
+		}
+		Science
+		{
+			id = recovery@MinmusSurfaced
+			title = Recovery of a vessel returned from the surface of Minmus
+			dsc = 1
+			scv = 0.166666672
+			sbv = 37.5
+			sci = 37.5
+			asc = True
+			cap = 45
 		}
 	}
 	SCENARIO
@@ -2330,8 +2402,8 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.10.0
-		UT = 861635.58972029097
-		activeVessel = 10
+		UT = 862508.57559895376
+		activeVessel = 0
 		mapViewFiltering = 31743
 		commNetUIModeTracking = Network
 		commNetUIModeFlight = Path
@@ -2722,11 +2794,11 @@ GAME
 			{
 				SMA = 0
 				ECC = 1
-				INC = 96.925493792678509
-				LPE = 90
-				LAN = 274.57400655953228
+				INC = 96.925493792678481
+				LPE = 89.999999999999986
+				LAN = 221.13042097072722
 				MNA = 0
-				EPH = 466177.7487226408
+				EPH = 862498.03559894394
 				REF = 2
 			}
 			PART
@@ -2920,13 +2992,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 101157.88519777452
-				ECC = 0.99999999999999989
+				SMA = NaN
+				ECC = 1
 				INC = 96.925038415000245
 				LPE = 90
-				LAN = 274.57703790260251
-				MNA = 3.1415926207170166
-				EPH = 466177.7487226408
+				LAN = 221.13345231379765
+				MNA = 0
+				EPH = 862498.03559894394
 				REF = 2
 			}
 			PART
@@ -6682,13 +6754,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = NaN
-				ECC = 1
-				INC = 89.932015131178588
-				LPE = 90.000000000000014
-				LAN = 306.70953390200992
-				MNA = 0
-				EPH = 466177.7487226408
+				SMA = 300376.73620329896
+				ECC = 0.99999999999999989
+				INC = 89.932015131178659
+				LPE = 90
+				LAN = 87.549860883386998
+				MNA = 3.1415926207170166
+				EPH = 862498.03559894394
 				REF = 1
 			}
 			PART
@@ -7418,13 +7490,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = 0
-				ECC = 1
-				INC = 89.932096407385643
-				LPE = 90.000000000000014
-				LAN = 306.70955295827184
-				MNA = 0
-				EPH = 466177.7487226408
+				SMA = 300376.51197760232
+				ECC = 0.99999999999999989
+				INC = 89.932096407385657
+				LPE = 90
+				LAN = 87.549879939648861
+				MNA = 3.1415926207170166
+				EPH = 862498.03559894394
 				REF = 1
 			}
 			PART
@@ -7610,1655 +7682,6 @@ GAME
 		}
 		VESSEL
 		{
-			pid = 50a19ac324ac450ca818eb453288828d
-			persistentId = 3864662780
-			name = Minmus lander
-			type = Ship
-			sit = SUB_ORBITAL
-			landed = False
-			skipGroundPositioning = True
-			vesselSpawning = False
-			launchedFrom = LaunchPad
-			landedAt = 
-			displaylandedAt = 
-			splashed = False
-			met = 541921.34176067053
-			lct = 319710.24795962038
-			lastUT = 861635.58972029097
-			distanceTraveled = 6723652.3944448633
-			root = 0
-			lat = -34.259399115732457
-			lon = -94.548368567754935
-			alt = 181913.09552727849
-			hgt = 181913.094
-			nrm = 0.8842538,-0.0125083923,-0.466839135
-			rot = 0.785747826,-0.507536769,0.282079071,0.213162586
-			CoM = 0.000102929771,-0.170218647,0.00014654547
-			stg = 1
-			prst = False
-			ref = 653181590
-			ctrl = True
-			PQSMin = 2
-			PQSMax = 6
-			GroupOverride = 0
-			OverrideDefault = False,False,False,False
-			OverrideActionControl = 0,0,0,0
-			OverrideAxisControl = 0,0,0,0
-			OverrideGroupNames = ,,,
-			altDispState = ASL
-			cPch = -1.502797
-			cHdg = -1.844
-			cMod = 0
-			ORBIT
-			{
-				SMA = 805576.23782938626
-				ECC = 0.19084079359910167
-				INC = 81.253125244832432
-				LPE = 306.89981538122879
-				LAN = 163.73260028901791
-				MNA = 0.41797538714255533
-				EPH = 859851.32409529109
-				REF = 1
-			}
-			PART
-			{
-				name = Mk2Pod
-				cid = 4294071100
-				uid = 653181590
-				mid = 3438721895
-				persistentId = 2026254028
-				launchID = 20
-				parent = 0
-				position = 0,0,0
-				rotation = 0,0,0,1
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = -1
-				resPri = 0
-				dstg = 0
-				sqor = -1
-				sepI = -1
-				sidx = -1
-				attm = 0
-				sameVesselCollision = False
-				srfN = , -1
-				attN = top, 2
-				attN = bottom, -1
-				mass = 1.55999994
-				shielded = False
-				temp = 362.28308076349288
-				tempExt = 346.06567528583037
-				tempExtUnexp = 4
-				staticPressureAtm = 0
-				expt = 0.5
-				state = 0
-				PreFailState = 0
-				attached = True
-				autostrutMode = Off
-				rigidAttachment = False
-				flag = Squad/Flags/default
-				rTrf = _default
-				modCost = 0
-				crew = Jebediah Kerman
-				crew = Bob Kerman
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-					ToggleSameVesselInteraction
-					{
-						actionGroup = None
-						wasActiveBeforePartWasAdjusted = False
-					}
-					SetSameVesselInteraction
-					{
-						actionGroup = None
-						wasActiveBeforePartWasAdjusted = False
-					}
-					RemoveSameVesselInteraction
-					{
-						actionGroup = None
-						wasActiveBeforePartWasAdjusted = False
-					}
-				}
-				PARTDATA
-				{
-				}
-				MODULE
-				{
-					name = ModuleCommand
-					isEnabled = True
-					hibernation = False
-					hibernateOnWarp = False
-					activeControlPointName = _default
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-						MakeReferenceToggle
-						{
-							actionGroup = None
-							wasActiveBeforePartWasAdjusted = False
-						}
-						HibernateToggle
-						{
-							actionGroup = None
-							active = False
-							wasActiveBeforePartWasAdjusted = False
-						}
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleReactionWheel
-					isEnabled = True
-					actuatorModeCycle = 0
-					authorityLimiter = 100
-					stateString = Idle
-					stagingEnabled = True
-					WheelState = Active
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-						CycleAction
-						{
-							actionGroup = None
-							wasActiveBeforePartWasAdjusted = False
-						}
-						Activate
-						{
-							actionGroup = None
-							wasActiveBeforePartWasAdjusted = False
-						}
-						Deactivate
-						{
-							actionGroup = None
-							wasActiveBeforePartWasAdjusted = False
-						}
-						Toggle
-						{
-							actionGroup = None
-							wasActiveBeforePartWasAdjusted = False
-						}
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleScienceExperiment
-					isEnabled = True
-					Deployed = True
-					Inoperable = False
-					cooldownToGo = 0
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-						DeployAction
-						{
-							actionGroup = None
-							wasActiveBeforePartWasAdjusted = False
-						}
-						ResetAction
-						{
-							actionGroup = None
-							wasActiveBeforePartWasAdjusted = False
-						}
-					}
-					ScienceData
-					{
-						data = 5
-						scienceValueRatio = 1
-						subjectID = crewReport@MinmusInSpaceHigh
-						xmit = 1
-						xmitBonus = 1
-						title = Crew Report while in space high over Minmus
-						triggered = False
-						container = 653181590
-						extraResultString = 
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleScienceContainer
-					isEnabled = True
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-						CollectAllAction
-						{
-							actionGroup = None
-							wasActiveBeforePartWasAdjusted = False
-						}
-					}
-					ScienceData
-					{
-						data = 10
-						scienceValueRatio = 1
-						subjectID = mysteryGoo@KerbinInSpaceLow
-						xmit = 0.300000012
-						xmitBonus = 1
-						title = Mystery Goo™ Observation while in space near Kerbin
-						triggered = False
-						container = 653181590
-						extraResultString = 
-					}
-					ScienceData
-					{
-						data = 25
-						scienceValueRatio = 1
-						subjectID = mobileMaterialsLab@KerbinFlyingHigh
-						xmit = 0.349999994
-						xmitBonus = 1
-						title = Materials Study from Kerbin's upper atmosphere
-						triggered = False
-						container = 653181590
-						extraResultString = 
-					}
-					ScienceData
-					{
-						data = 10
-						scienceValueRatio = 1
-						subjectID = mysteryGoo@MinmusInSpaceLow
-						xmit = 0.300000012
-						xmitBonus = 1
-						title = Mystery Goo™ Observation while in space near Minmus
-						triggered = False
-						container = 653181590
-						extraResultString = 
-					}
-					ScienceData
-					{
-						data = 8
-						scienceValueRatio = 1
-						subjectID = temperatureScan@MinmusInSpaceLow
-						xmit = 0.5
-						xmitBonus = 1
-						title = Temperature Scan while in space near Minmus
-						triggered = False
-						container = 653181590
-						extraResultString = 
-					}
-					ScienceData
-					{
-						data = 12
-						scienceValueRatio = 1
-						subjectID = barometerScan@MinmusInSpaceLow
-						xmit = 0.5
-						xmitBonus = 1
-						title = Atmospheric Pressure Scan while in space near Minmus
-						triggered = False
-						container = 653181590
-						extraResultString = 
-					}
-					ScienceData
-					{
-						data = 25
-						scienceValueRatio = 1
-						subjectID = mobileMaterialsLab@MinmusInSpaceLow
-						xmit = 0.349999994
-						xmitBonus = 1
-						title = Materials Study while in space near Minmus
-						triggered = False
-						container = 653181590
-						extraResultString = 
-					}
-					ScienceData
-					{
-						data = 25
-						scienceValueRatio = 1
-						subjectID = mobileMaterialsLab@MinmusSrfLandedGreaterFlats
-						xmit = 0.349999994
-						xmitBonus = 1
-						title = Materials Study from Minmus' Greater Flats
-						triggered = False
-						container = 653181590
-						extraResultString = 
-					}
-					ScienceData
-					{
-						data = 8
-						scienceValueRatio = 1
-						subjectID = evaReport@MinmusSrfLandedLowlands
-						xmit = 1
-						xmitBonus = 1
-						title = EVA Report from Minmus' Lowlands
-						triggered = False
-						container = 653181590
-						extraResultString = 
-					}
-					ScienceData
-					{
-						data = 30
-						scienceValueRatio = 1
-						subjectID = surfaceSample@MinmusSrfLandedGreaterFlats
-						xmit = 0.25
-						xmitBonus = 1
-						title = Surface Sample from Minmus' Greater Flats
-						triggered = False
-						container = 653181590
-						extraResultString = 
-					}
-					ScienceData
-					{
-						data = 8
-						scienceValueRatio = 1
-						subjectID = temperatureScan@MinmusSrfLandedLowlands
-						xmit = 0.5
-						xmitBonus = 1
-						title = Temperature Scan from Minmus' Lowlands
-						triggered = False
-						container = 653181590
-						extraResultString = 
-					}
-					ScienceData
-					{
-						data = 12
-						scienceValueRatio = 1
-						subjectID = barometerScan@MinmusSrfLandedLowlands
-						xmit = 0.5
-						xmitBonus = 1
-						title = Atmospheric Pressure Scan from Minmus' Lowlands
-						triggered = False
-						container = 653181590
-						extraResultString = 
-					}
-					ScienceData
-					{
-						data = 10
-						scienceValueRatio = 1
-						subjectID = mysteryGoo@MinmusSrfLandedLowlands
-						xmit = 0.300000012
-						xmitBonus = 1
-						title = Mystery Goo™ Observation from Minmus' Lowlands
-						triggered = False
-						container = 653181590
-						extraResultString = 
-					}
-					ScienceData
-					{
-						data = 30
-						scienceValueRatio = 1
-						subjectID = surfaceSample@MinmusSrfLandedLowlands
-						xmit = 0.25
-						xmitBonus = 1
-						title = Surface Sample from Minmus' Lowlands
-						triggered = False
-						container = 653181590
-						extraResultString = 
-					}
-					ScienceData
-					{
-						data = 8
-						scienceValueRatio = 1
-						subjectID = evaReport@MinmusInSpaceHigh
-						xmit = 1
-						xmitBonus = 1
-						title = EVA Report while in space high over Minmus
-						triggered = False
-						container = 653181590
-						extraResultString = 
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleDataTransmitter
-					isEnabled = True
-					xmitIncomplete = False
-					stagingEnabled = True
-					canComm = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-						StartTransmissionAction
-						{
-							actionGroup = None
-							active = False
-							wasActiveBeforePartWasAdjusted = False
-						}
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleColorChanger
-					isEnabled = True
-					animState = False
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-						ToggleAction
-						{
-							actionGroup = Light
-							wasActiveBeforePartWasAdjusted = False
-						}
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = FlagDecal
-					isEnabled = True
-					flagDisplayed = True
-					isMirrored = False
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleTripLogger
-					isEnabled = True
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					Log
-					{
-						flight = 0
-						0 = Flight,Kerbin
-						0 = Suborbit,Kerbin
-						0 = Orbit,Kerbin
-						0 = Flyby,Minmus
-						0 = Escape,Minmus
-						0 = Orbit,Minmus
-						0 = Suborbit,Minmus
-						0 = Land,Minmus
-						0 = Flyby,Kerbin
-						0 = Flyby,Mun
-						0 = Escape,Mun
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				RESOURCE
-				{
-					name = ElectricCharge
-					amount = 0
-					maxAmount = 200
-					flowState = True
-					isTweakable = True
-					hideFlow = False
-					isVisible = True
-					flowMode = Both
-				}
-			}
-			PART
-			{
-				name = mumech.MJ2.AR202
-				cid = 4294044608
-				uid = 4174074596
-				mid = 3438721895
-				persistentId = 2847494465
-				launchID = 20
-				parent = 0
-				position = 0,0.48519706726074219,0.30658519268035889
-				rotation = -0.137620792,0.693585277,-0.137620792,0.693585277
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = -1
-				resPri = 0
-				dstg = 0
-				sqor = -1
-				sepI = -1
-				sidx = -1
-				attm = 1
-				sameVesselCollision = False
-				srfN = srfAttach, 0,COL
-				mass = 9.99999975E-05
-				shielded = False
-				temp = 361.31993690919512
-				tempExt = 347.21382945471606
-				tempExtUnexp = 4
-				staticPressureAtm = 0
-				expt = 0.5
-				state = 0
-				PreFailState = 0
-				attached = True
-				autostrutMode = Off
-				rigidAttachment = False
-				flag = Squad/Flags/default
-				rTrf = _default
-				modCost = 0
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-					ToggleSameVesselInteraction
-					{
-						actionGroup = None
-						wasActiveBeforePartWasAdjusted = False
-					}
-					SetSameVesselInteraction
-					{
-						actionGroup = None
-						wasActiveBeforePartWasAdjusted = False
-					}
-					RemoveSameVesselInteraction
-					{
-						actionGroup = None
-						wasActiveBeforePartWasAdjusted = False
-					}
-				}
-				PARTDATA
-				{
-				}
-				MODULE
-				{
-					name = ModuleCommand
-					isEnabled = True
-					hibernation = False
-					hibernateOnWarp = False
-					activeControlPointName = _default
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-						MakeReferenceToggle
-						{
-							actionGroup = None
-							wasActiveBeforePartWasAdjusted = False
-						}
-						HibernateToggle
-						{
-							actionGroup = None
-							active = False
-							wasActiveBeforePartWasAdjusted = False
-						}
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = MechJebCore
-					isEnabled = True
-					running = True
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-						OnOrbitProgradeAction
-						{
-							actionGroup = None
-							wasActiveBeforePartWasAdjusted = False
-						}
-						OnOrbitRetrogradeAction
-						{
-							actionGroup = None
-							wasActiveBeforePartWasAdjusted = False
-						}
-						OnOrbitNormalAction
-						{
-							actionGroup = None
-							wasActiveBeforePartWasAdjusted = False
-						}
-						OnOrbitAntinormalAction
-						{
-							actionGroup = None
-							wasActiveBeforePartWasAdjusted = False
-						}
-						OnOrbitRadialInAction
-						{
-							actionGroup = None
-							wasActiveBeforePartWasAdjusted = False
-						}
-						OnOrbitRadialOutAction
-						{
-							actionGroup = None
-							wasActiveBeforePartWasAdjusted = False
-						}
-						OnKillRotationAction
-						{
-							actionGroup = None
-							wasActiveBeforePartWasAdjusted = False
-						}
-						OnDeactivateSmartASSAction
-						{
-							actionGroup = None
-							wasActiveBeforePartWasAdjusted = False
-						}
-						OnLandsomewhereAction
-						{
-							actionGroup = None
-							wasActiveBeforePartWasAdjusted = False
-						}
-						OnLandTargetAction
-						{
-							actionGroup = None
-							wasActiveBeforePartWasAdjusted = False
-						}
-						OnPanicAction
-						{
-							actionGroup = None
-							wasActiveBeforePartWasAdjusted = False
-						}
-						OnTranslatronOffAction
-						{
-							actionGroup = None
-							wasActiveBeforePartWasAdjusted = False
-						}
-						OnTranslatronKeepVertAction
-						{
-							actionGroup = None
-							wasActiveBeforePartWasAdjusted = False
-						}
-						OnTranslatronZeroSpeedAction
-						{
-							actionGroup = None
-							wasActiveBeforePartWasAdjusted = False
-						}
-						OnTranslatronPlusOneSpeedAction
-						{
-							actionGroup = None
-							wasActiveBeforePartWasAdjusted = False
-						}
-						OnTranslatronMinusOneSpeedAction
-						{
-							actionGroup = None
-							wasActiveBeforePartWasAdjusted = False
-						}
-						OnTranslatronToggleHSAction
-						{
-							actionGroup = None
-							wasActiveBeforePartWasAdjusted = False
-						}
-						OnAscentAPToggleAction
-						{
-							actionGroup = None
-							wasActiveBeforePartWasAdjusted = False
-						}
-					}
-					MechJebLocalSettings
-					{
-						MechJebModuleMenu
-						{
-							unlockParts = 
-							unlockTechs = 
-						}
-						MechJebModuleRoverWindow
-						{
-							unlockParts = 
-							unlockTechs = fieldScience
-						}
-						MechJebModuleAttitudeAdjustment
-						{
-							unlockParts = 
-							unlockTechs = advFlightControl
-						}
-						MechJebModuleAscentNavBall
-						{
-							unlockParts = 
-							unlockTechs = 
-						}
-						MechJebModuleLogicalStageTracking
-						{
-							unlockParts = 
-							unlockTechs = 
-						}
-						MechJebModuleRCSBalancerWindow
-						{
-							unlockParts = 
-							unlockTechs = advFlightControl
-						}
-						MechJebModuleRoverController
-						{
-							ControlHeading = False
-							ControlSpeed = False
-							BrakeOnEject = False
-							BrakeOnEnergyDepletion = False
-							WarpToDaylight = False
-							StabilityControl = False
-							LimitAcceleration = False
-							unlockParts = 
-							unlockTechs = 
-							heading
-							{
-								_val = 0
-								_text = 0
-							}
-							speed
-							{
-								_val = 10
-								_text = 10
-							}
-						}
-						MechJebModuleSpaceplaneGuidance
-						{
-							runwayIndex = 0
-							unlockParts = 
-							unlockTechs = unmannedTech
-						}
-						MechJebModuleAscentPVG
-						{
-							unlockParts = 
-							unlockTechs = 
-						}
-						MechJebModuleInfoItems
-						{
-							unlockParts = 
-							unlockTechs = 
-						}
-						MechJebModuleSmartRcs
-						{
-							unlockParts = 
-							unlockTechs = 
-						}
-						MechJebModuleAscentClassic
-						{
-							unlockParts = 
-							unlockTechs = 
-						}
-						MechJebModuleSpaceplaneAutopilot
-						{
-							bBreakAsSoonAsLanded = False
-							unlockParts = 
-							unlockTechs = 
-							glideslope
-							{
-								_val = 2.5
-								_text = 2.5
-							}
-							approachSpeed
-							{
-								_val = 80
-								_text = 80
-							}
-							touchdownSpeed
-							{
-								_val = 60
-								_text = 60
-							}
-							maximumSafeBankAngle
-							{
-								_val = 25
-								_text = 25
-							}
-						}
-						MechJebModuleAirplaneAutopilot
-						{
-							HeadingHoldEnabled = False
-							AltitudeHoldEnabled = False
-							VertSpeedHoldEnabled = False
-							RollHoldEnabled = False
-							SpeedHoldEnabled = False
-							AltitudeTarget = 0
-							HeadingTarget = 90
-							RollTarget = 0
-							SpeedTarget = 0
-							VertSpeedTarget = 0
-							BankAngle = 30
-							unlockParts = 
-							unlockTechs = 
-							AccKp
-							{
-								_val = 0.5
-								_text = 0.5
-							}
-							AccKi
-							{
-								_val = 0.5
-								_text = 0.5
-							}
-							AccKd
-							{
-								_val = 0.0050000000000000001
-								_text = 0.005
-							}
-							PitKp
-							{
-								_val = 2
-								_text = 2
-							}
-							PitKi
-							{
-								_val = 1
-								_text = 1
-							}
-							PitKd
-							{
-								_val = 0.0050000000000000001
-								_text = 0.005
-							}
-							RolKp
-							{
-								_val = 0.5
-								_text = 0.5
-							}
-							RolKi
-							{
-								_val = 0.02
-								_text = 0.02
-							}
-							RolKd
-							{
-								_val = 0.5
-								_text = 0.5
-							}
-							YawKp
-							{
-								_val = 1
-								_text = 1
-							}
-							YawKi
-							{
-								_val = 0.25
-								_text = 0.25
-							}
-							YawKd
-							{
-								_val = 0.02
-								_text = 0.02
-							}
-							YawLimit
-							{
-								_val = 10
-								_text = 10
-							}
-							RollLimit
-							{
-								_val = 45
-								_text = 45
-							}
-							PitchDownLimit
-							{
-								_val = 15
-								_text = 15
-							}
-							PitchUpLimit
-							{
-								_val = 25
-								_text = 25
-							}
-						}
-						MechJebModuleDockingGuidance
-						{
-							unlockParts = 
-							unlockTechs = advUnmanned
-						}
-						MechJebModuleSettings
-						{
-							unlockParts = 
-							unlockTechs = 
-						}
-						MechJebModuleAscentGT
-						{
-							unlockParts = 
-							unlockTechs = 
-						}
-						MechJebModuleDebugArrows
-						{
-							unlockParts = 
-							unlockTechs = 
-						}
-						MechJebModuleSmartASS
-						{
-							mode = ORBITAL
-							target = OFF
-							advReference = INERTIAL
-							advDirection = FORWARD
-							forceRol = False
-							forcePitch = True
-							forceYaw = True
-							unlockParts = 
-							unlockTechs = flightControl
-							srfHdg
-							{
-								_val = 90
-								_text = 90
-							}
-							srfPit
-							{
-								_val = 90
-								_text = 90
-							}
-							srfRol
-							{
-								_val = 0
-								_text = 0
-							}
-							srfVelYaw
-							{
-								_val = 0
-								_text = 0
-							}
-							srfVelPit
-							{
-								_val = 0
-								_text = 0
-							}
-							srfVelRol
-							{
-								_val = 0
-								_text = 0
-							}
-							rol
-							{
-								_val = 0
-								_text = 0
-							}
-						}
-						MechJebModuleDockingAutopilot
-						{
-							forceRol = False
-							overrideSafeDistance = False
-							overrideTargetSize = False
-							unlockParts = 
-							unlockTechs = 
-							rol
-							{
-								_val = 0
-								_text = 0
-							}
-						}
-						ModExtensionDemo
-						{
-							unlockParts = 
-							unlockTechs = 
-						}
-						MechJebModuleThrustWindow
-						{
-							autostageSavedState = False
-							unlockParts = 
-							unlockTechs = advFlightControl
-						}
-						MechJebModuleWarpHelper
-						{
-							unlockParts = 
-							unlockTechs = advFlightControl
-							phaseAngle
-							{
-								_val = 0
-								_text = 0
-							}
-						}
-						MechJebModuleCustomWindowEditor
-						{
-							unlockParts = 
-							unlockTechs = flightControl
-						}
-						MechJebModuleAscentAutopilot
-						{
-							unlockParts = 
-							unlockTechs = 
-						}
-						MechJebModuleRendezvousAutopilotWindow
-						{
-							unlockParts = 
-							unlockTechs = advUnmanned
-						}
-						MechJebModuleNodeExecutor
-						{
-							unlockParts = 
-							unlockTechs = 
-						}
-						MechJebModuleNodeEditor
-						{
-							unlockParts = 
-							unlockTechs = advFlightControl
-						}
-						MechJebModuleLandingAutopilot
-						{
-							deployGears = True
-							deployChutes = True
-							rcsAdjustment = True
-							unlockParts = 
-							unlockTechs = 
-							touchdownSpeed
-							{
-								_val = 0.5
-								_text = 0.5
-							}
-							limitGearsStage
-							{
-								val = 0
-								_text = 0
-							}
-							limitChutesStage
-							{
-								val = 0
-								_text = 0
-							}
-						}
-						MechJebModuleScript
-						{
-							minifiedGUI = False
-							selectedSlot = 0
-							selectedMemorySlotType = 0
-							vesselSaveName = Minmus lander
-							activeSavepoint = -1
-							unlockParts = 
-							unlockTechs = 
-						}
-						MechJebModuleLandingGuidance
-						{
-							landingSiteIdx = 0
-							unlockParts = 
-							unlockTechs = unmannedTech
-						}
-						MechJebModuleLandingPredictions
-						{
-							unlockParts = 
-							unlockTechs = 
-						}
-						MechJebModuleTranslatron
-						{
-							unlockParts = 
-							unlockTechs = advFlightControl
-							trans_spd
-							{
-								_val = 0
-								_text = 0
-							}
-						}
-						MechJebModuleAscentGuidance
-						{
-							unlockParts = 
-							unlockTechs = unmannedTech
-						}
-						MechJebModuleRendezvousAutopilot
-						{
-							unlockParts = 
-							unlockTechs = 
-						}
-						MechJebModuleWaypointWindow
-						{
-							unlockParts = 
-							unlockTechs = 
-						}
-						MechJebModuleWaypointHelpWindow
-						{
-							unlockParts = 
-							unlockTechs = 
-						}
-						MechJebModuleTargetController
-						{
-							unlockParts = 
-							unlockTechs = 
-						}
-						MechJebModuleManeuverPlanner
-						{
-							unlockParts = 
-							unlockTechs = advFlightControl
-						}
-						MechJebModuleStageStats
-						{
-							unlockParts = 
-							unlockTechs = 
-						}
-						MechJebModuleAirplaneGuidance
-						{
-							showpid = False
-							unlockParts = 
-							unlockTechs = 
-						}
-						MechJebModuleGuidanceController
-						{
-							unlockParts = 
-							unlockTechs = 
-						}
-						MechJebModuleRendezvousGuidance
-						{
-							unlockParts = 
-							unlockTechs = advUnmanned
-						}
-						MechJebModuleAscentClassicMenu
-						{
-							unlockParts = 
-							unlockTechs = 
-						}
-						MechJebModuleCustomInfoWindow
-						{
-						}
-						MechJebModuleCustomInfoWindow
-						{
-						}
-						MechJebModuleCustomInfoWindow
-						{
-						}
-						MechJebModuleCustomInfoWindow
-						{
-						}
-						MechJebModuleWarpController
-						{
-							unlockParts = 
-							unlockTechs = 
-						}
-						MechJebModuleDeployableAntennaController
-						{
-							prev_shouldDeploy = True
-							unlockParts = 
-							unlockTechs = 
-						}
-						MechJebModuleSolarPanelController
-						{
-							prev_shouldDeploy = True
-							unlockParts = 
-							unlockTechs = 
-						}
-						MechJebModuleThrustController
-						{
-							limitThrottle = False
-							limiterMinThrottle = False
-							electricThrottle = False
-							unlockParts = 
-							unlockTechs = 
-							maxThrottle
-							{
-								_val = 1
-								_text = 100
-							}
-							minThrottle
-							{
-								_val = 0.050000000000000003
-								_text = 5
-							}
-							electricThrottleLo
-							{
-								_val = 0.050000000000000003
-								_text = 5
-							}
-							electricThrottleHi
-							{
-								_val = 0.14999999999999999
-								_text = 15
-							}
-						}
-						MechJebModuleRCSController
-						{
-							unlockParts = 
-							unlockTechs = 
-							Tf
-							{
-								_val = 1
-								_text = 1
-							}
-							Kp
-							{
-								_val = 0.125
-								_text = 0.125
-							}
-							Ki
-							{
-								_val = 0.070000000000000007
-								_text = 0.07
-							}
-							Kd
-							{
-								_val = 0.53000000000000003
-								_text = 0.53
-							}
-						}
-						MechJebModuleRCSBalancer
-						{
-							unlockParts = 
-							unlockTechs = 
-						}
-						MechJebModuleAttitudeController
-						{
-							unlockParts = 
-							unlockTechs = 
-							MJAttitudeController
-							{
-							}
-							KosAttitudeController
-							{
-							}
-							HybridController
-							{
-							}
-						}
-						MechJebModuleStagingController
-						{
-							unlockParts = 
-							unlockTechs = 
-						}
-						MechJebModuleFlightRecorder
-						{
-							markUT = 319710.2679596204
-							deltaVExpended = NaN
-							dragLosses = NaN
-							gravityLosses = 620.15678284309399
-							steeringLosses = NaN
-							markLAN = 45.954321877314825
-							markLatitude = -0.097183966504694005
-							markLongitude = -74.557673659504673
-							markAltitude = 78.564351934939623
-							markBodyIndex = 1
-							maxDragGees = NaN
-							unlockParts = 
-							unlockTechs = 
-						}
-						MechJebModuleFlightRecorderGraph
-						{
-							unlockParts = 
-							unlockTechs = 
-						}
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = MechJebAR202
-					isEnabled = True
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleTripLogger
-					isEnabled = True
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					Log
-					{
-						flight = 0
-						0 = Flight,Kerbin
-						0 = Suborbit,Kerbin
-						0 = Orbit,Kerbin
-						0 = Flyby,Minmus
-						0 = Escape,Minmus
-						0 = Orbit,Minmus
-						0 = Suborbit,Minmus
-						0 = Land,Minmus
-						0 = Flyby,Kerbin
-						0 = Flyby,Mun
-						0 = Escape,Mun
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				RESOURCE
-				{
-					name = ElectricCharge
-					amount = 0
-					maxAmount = 5
-					flowState = True
-					isTweakable = True
-					hideFlow = False
-					isVisible = True
-					flowMode = Both
-				}
-			}
-			PART
-			{
-				name = parachuteSingle
-				cid = 4294028090
-				uid = 2006607057
-				mid = 3438721895
-				persistentId = 2343939162
-				launchID = 20
-				parent = 0
-				position = 0,1.0150814056396484,0
-				rotation = 0,0,0,1
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 0
-				resPri = 0
-				dstg = 0
-				sqor = 0
-				sepI = -1
-				sidx = 0
-				attm = 0
-				sameVesselCollision = False
-				srfN = srfAttach, -1
-				attN = bottom, 0
-				mass = 0.100000001
-				shielded = False
-				temp = 361.95290877314108
-				tempExt = 341.48928680510107
-				tempExtUnexp = 4
-				staticPressureAtm = 0
-				expt = 0.5
-				state = 0
-				PreFailState = 0
-				attached = True
-				autostrutMode = Off
-				rigidAttachment = False
-				flag = Squad/Flags/default
-				rTrf = parachuteSingle
-				modCost = 0
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-					ToggleSameVesselInteraction
-					{
-						actionGroup = None
-						wasActiveBeforePartWasAdjusted = False
-					}
-					SetSameVesselInteraction
-					{
-						actionGroup = None
-						wasActiveBeforePartWasAdjusted = False
-					}
-					RemoveSameVesselInteraction
-					{
-						actionGroup = None
-						wasActiveBeforePartWasAdjusted = False
-					}
-				}
-				PARTDATA
-				{
-				}
-				MODULE
-				{
-					name = ModuleParachute
-					isEnabled = True
-					persistentState = STOWED
-					animTime = 0
-					minAirPressureToOpen = 0.0399999991
-					deployAltitude = 1000
-					spreadAngle = 7
-					automateSafeDeploy = 0
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-						DeployAction
-						{
-							actionGroup = None
-							wasActiveBeforePartWasAdjusted = False
-						}
-						CutAction
-						{
-							actionGroup = None
-							wasActiveBeforePartWasAdjusted = False
-						}
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleTestSubject
-					isEnabled = True
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleDragModifier
-					isEnabled = True
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleDragModifier
-					isEnabled = True
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-			}
-			PART
-			{
-				name = longAntenna
-				cid = 4293977234
-				uid = 571995993
-				mid = 3438721895
-				persistentId = 274222839
-				launchID = 20
-				parent = 2
-				position = 0.012413479387760162,1.2760734558105469,0
-				rotation = -1.68587405E-07,0,0,1
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 0
-				resPri = 0
-				dstg = 0
-				sqor = -1
-				sepI = -1
-				sidx = -1
-				attm = 1
-				sameVesselCollision = False
-				srfN = srfAttach, 2,nodecollider
-				attN = bottom, -1
-				mass = 0.00499999989
-				shielded = False
-				temp = 358.49936732005665
-				tempExt = 342.79939864861808
-				tempExtUnexp = 4
-				staticPressureAtm = 0
-				expt = 0.5
-				state = 0
-				PreFailState = 0
-				attached = True
-				autostrutMode = Off
-				rigidAttachment = False
-				flag = Squad/Flags/default
-				rTrf = longAntenna
-				modCost = 0
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-					ToggleSameVesselInteraction
-					{
-						actionGroup = None
-						wasActiveBeforePartWasAdjusted = False
-					}
-					SetSameVesselInteraction
-					{
-						actionGroup = None
-						wasActiveBeforePartWasAdjusted = False
-					}
-					RemoveSameVesselInteraction
-					{
-						actionGroup = None
-						wasActiveBeforePartWasAdjusted = False
-					}
-				}
-				PARTDATA
-				{
-				}
-				MODULE
-				{
-					name = ModuleDeployableAntenna
-					isEnabled = True
-					currentRotation = (-0.707106829, 0, 0, 0.707106829)
-					storedAnimationTime = 0
-					storedAnimationSpeed = 1
-					deployState = EXTENDED
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-						ExtendPanelsAction
-						{
-							actionGroup = None
-							wasActiveBeforePartWasAdjusted = False
-						}
-						ExtendAction
-						{
-							actionGroup = None
-							wasActiveBeforePartWasAdjusted = False
-						}
-						RetractAction
-						{
-							actionGroup = None
-							wasActiveBeforePartWasAdjusted = False
-						}
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleDataTransmitter
-					isEnabled = True
-					xmitIncomplete = False
-					stagingEnabled = True
-					canComm = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-						StartTransmissionAction
-						{
-							actionGroup = None
-							wasActiveBeforePartWasAdjusted = False
-						}
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-			}
-			ACTIONGROUPS
-			{
-				Stage = False, 817280.480013453
-				Gear = False, 0
-				Light = False, 0
-				RCS = False, 0
-				SAS = False, 817282.760013455
-				Brakes = False, 0
-				Abort = False, 0
-				Custom01 = False, 0
-				Custom02 = False, 0
-				Custom03 = False, 0
-				Custom04 = False, 0
-				Custom05 = False, 0
-				Custom06 = False, 0
-				Custom07 = False, 0
-				Custom08 = False, 0
-				Custom09 = False, 0
-				Custom10 = False, 0
-			}
-			DISCOVERY
-			{
-				state = -1
-				lastObservedTime = 0
-				lifetime = Infinity
-				refTime = Infinity
-				size = 2
-			}
-			FLIGHTPLAN
-			{
-			}
-			CTRLSTATE
-			{
-				pitch = 0
-				yaw = 0
-				roll = 0
-				trimPitch = 0
-				trimYaw = 0
-				trimRoll = 0
-				mainThrottle = 0
-			}
-			VESSELMODULES
-			{
-				FlightIntegrator
-				{
-				}
-				AxisGroupsModule
-				{
-				}
-				CommNetVessel
-				{
-					controlState = KerbalFull
-					canComm = True
-				}
-			}
-		}
-		VESSEL
-		{
 			pid = c67f5584e0b04558b5a232f629f8d845
 			persistentId = 3440804293
 			name = Minmus lander Debris
@@ -9300,13 +7723,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = NaN
-				ECC = 1
-				INC = 90.099964575504302
-				LPE = 90
-				LAN = 153.3298926915711
-				MNA = 0
-				EPH = 466177.7487226408
+				SMA = 300033.76944384829
+				ECC = 0.99999999999999989
+				INC = 90.09996457550443
+				LPE = 90.000000000000014
+				LAN = 294.17021967295398
+				MNA = -3.1415926207170166
+				EPH = 862498.03559894394
 				REF = 1
 			}
 			PART
@@ -9844,11 +8267,11 @@ GAME
 			{
 				SMA = 0
 				ECC = 1
-				INC = 98.152414482191887
-				LPE = 90.000000000000014
-				LAN = 310.56412953921085
+				INC = 98.152414482190707
+				LPE = 90
+				LAN = 242.13104229838206
 				MNA = 0
-				EPH = 466177.7487226408
+				EPH = 862498.03559894394
 				REF = 3
 			}
 			PART
@@ -12178,7 +10601,7 @@ GAME
 			badS = True
 			veteran = True
 			tour = False
-			state = Assigned
+			state = Available
 			inactive = False
 			inactiveTimeEnd = 0
 			gExperienced = 0
@@ -12238,7 +10661,7 @@ GAME
 			}
 			CAREER_LOG
 			{
-				flight = 18
+				flight = 19
 				0 = ExitVessel,Kerbin
 				0 = BoardVessel,Kerbin
 				0 = Recover
@@ -12338,10 +10761,6 @@ GAME
 				17 = BoardVessel,Kerbin
 				17 = Land,Kerbin
 				17 = Recover
-			}
-			FLIGHT_LOG
-			{
-				flight = 18
 				18 = Flight,Kerbin
 				18 = Suborbit,Kerbin
 				18 = Orbit,Kerbin
@@ -12353,6 +10772,12 @@ GAME
 				18 = Flyby,Kerbin
 				18 = Flyby,Mun
 				18 = Escape,Mun
+				18 = Land,Kerbin
+				18 = Recover
+			}
+			FLIGHT_LOG
+			{
+				flight = 19
 			}
 		}
 		KERBAL
@@ -12460,7 +10885,7 @@ GAME
 			badS = False
 			veteran = True
 			tour = False
-			state = Assigned
+			state = Available
 			inactive = False
 			inactiveTimeEnd = 167195.53188622784
 			gExperienced = 0
@@ -12520,7 +10945,7 @@ GAME
 			}
 			CAREER_LOG
 			{
-				flight = 2
+				flight = 3
 				0 = Flight,Kerbin
 				0 = Suborbit,Kerbin
 				0 = Orbit,Kerbin
@@ -12549,10 +10974,6 @@ GAME
 				1 = BoardVessel,Kerbin
 				1 = Land,Kerbin
 				1 = Recover
-			}
-			FLIGHT_LOG
-			{
-				flight = 2
 				2 = Flight,Kerbin
 				2 = Suborbit,Kerbin
 				2 = Orbit,Kerbin
@@ -12568,6 +10989,12 @@ GAME
 				2 = Flyby,Kerbin
 				2 = Flyby,Mun
 				2 = Escape,Mun
+				2 = Land,Kerbin
+				2 = Recover
+			}
+			FLIGHT_LOG
+			{
+				flight = 3
 			}
 		}
 		KERBAL
