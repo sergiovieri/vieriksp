@@ -1,12 +1,12 @@
-ship = superheavy lifter
+ship = supper heavy lifter 1
 version = 1.10.0
-description = 
-type = VAB
-size = 9.95005035,17.0301552,9.93953609
+description = No Description.
+type = None
+size = 9.95005131,17.011673,9.93953609
 steamPublishedFileId = 0
-persistentId = 2960964542
+persistentId = 3143400672
 rot = 0,0,0,0
-missionFlag = Squad/Flags/default
+missionFlag = 
 vesselType = Debris
 OverrideDefault = False,False,False,False
 OverrideActionControl = 0,0,0,0
@@ -14,221 +14,12 @@ OverrideAxisControl = 0,0,0,0
 OverrideGroupNames = ,,,
 PART
 {
-	part = mk2DroneCore_4294561542
-	partName = Part
-	persistentId = 3980947548
-	pos = 1.08565772,39.3786964,-0.242611796
-	attPos = 0,0,0
-	attPos0 = 1.08565772,39.3786964,-0.242611796
-	rot = 0,0,0,1
-	attRot = 0,0,0,1
-	attRot0 = 0,0,0,1
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	link = Rockomax32.BW_4294557480
-	attN = top,Null_0_0|0.125|0_0|1|0_0|0.125|0_0|1|0
-	attN = bottom,Rockomax32.BW_4294557480_0|-0.125|0_0|-1|0_0|-0.125|0_0|-1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleCommand
-		isEnabled = True
-		hibernation = False
-		hibernateOnWarp = False
-		activeControlPointName = _default
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			MakeReferenceToggle
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			HibernateToggle
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleReactionWheel
-		isEnabled = True
-		actuatorModeCycle = 0
-		authorityLimiter = 100
-		stateString = Active
-		stagingEnabled = True
-		WheelState = Active
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			CycleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			Activate
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			Deactivate
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			Toggle
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleSAS
-		isEnabled = True
-		standaloneToggle = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleKerbNetAccess
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			OpenKerbNetAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleDataTransmitter
-		isEnabled = True
-		xmitIncomplete = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			StartTransmissionAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleTripLogger
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		Log
-		{
-			flight = 0
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	RESOURCE
-	{
-		name = ElectricCharge
-		amount = 250
-		maxAmount = 250
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-}
-PART
-{
 	part = Rockomax32.BW_4294557480
 	partName = Part
 	persistentId = 4058586483
-	pos = 1.08565772,37.3936958,-0.242611796
+	pos = -1.39948654,26.7727489,2.37440681
 	attPos = 0,0,0
-	attPos0 = 0,-1.98500061,0
+	attPos0 = -1.39948654,26.7727489,2.37440681
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
@@ -236,7 +27,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Heaviest
 	rigidAttachment = False
-	istg = -1
+	istg = 0
 	resPri = 0
 	dstg = 0
 	sidx = -1
@@ -249,7 +40,7 @@ PART
 	modSize = 0,0,0
 	link = liquidEngine2-2.v2_4294554222
 	link = mumech.MJ2.AR202_4294531778
-	attN = top,mk2DroneCore_4294561542_0|1.86000001|0_0|1|0_0|1.86000001|0_0|1|0
+	attN = top,Null_0_0|1.86000001|0_0|1|0_0|1.86000001|0_0|1|0
 	attN = bottom,liquidEngine2-2.v2_4294554222_0|-1.86000001|0_0|-1|0_0|-1.86000001|0_0|-1|0
 	EVENTS
 	{
@@ -319,7 +110,7 @@ PART
 	part = liquidEngine2-2.v2_4294554222
 	partName = Part
 	persistentId = 3346664398
-	pos = 1.08565772,35.5336952,-0.242611796
+	pos = -1.39948654,24.9127483,2.37440681
 	attPos = 0,0,0
 	attPos0 = 0,-1.86000156,0
 	rot = 0,0,0,1
@@ -329,7 +120,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 0
+	istg = 1
 	resPri = 0
 	dstg = 0
 	sidx = 0
@@ -624,7 +415,7 @@ PART
 	part = Decoupler.2_4294530678
 	partName = Part
 	persistentId = 2462484809
-	pos = 1.08565772,33.9336967,-0.242611796
+	pos = -1.39948654,23.3127499,2.37440681
 	attPos = 0,0,0
 	attPos0 = 0,-1.59999847,0
 	rot = 0,0,0,1
@@ -634,7 +425,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 0
+	istg = 1
 	resPri = 0
 	dstg = 1
 	sidx = 1
@@ -762,7 +553,7 @@ PART
 	part = Rockomax32.BW_4294530032
 	partName = Part
 	persistentId = 792142586
-	pos = 1.08565772,31.9736977,-0.242611796
+	pos = -1.39948654,21.3527508,2.37440681
 	attPos = 0,0,0
 	attPos0 = 0,-1.95999908,0
 	rot = 0,0,0,1
@@ -772,7 +563,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Heaviest
 	rigidAttachment = False
-	istg = 0
+	istg = 1
 	resPri = 0
 	dstg = 2
 	sidx = -1
@@ -854,7 +645,7 @@ PART
 	part = Rockomax32.BW_4294529244
 	partName = Part
 	persistentId = 3470550103
-	pos = 1.08565772,28.2536964,-0.242611796
+	pos = -1.39948654,17.6327496,2.37440681
 	attPos = 0,0,0
 	attPos0 = 0,-3.72000027,0
 	rot = 0,0,0,1
@@ -864,7 +655,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 0
+	istg = 1
 	resPri = 0
 	dstg = 2
 	sidx = -1
@@ -950,7 +741,7 @@ PART
 	part = engineLargeSkipper.v2_4294528778
 	partName = Part
 	persistentId = 1980488832
-	pos = 1.08565772,25.3806953,-0.242611796
+	pos = -1.39948654,14.7597485,2.37440681
 	attPos = 0,0,0
 	attPos0 = 0,-2.8730011,0
 	rot = 0,0,0,1
@@ -960,7 +751,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 3
+	istg = 4
 	resPri = 0
 	dstg = 2
 	sidx = 2
@@ -1223,7 +1014,7 @@ PART
 	part = radialDecoupler2_4294512830
 	partName = Part
 	persistentId = 3037906258
-	pos = 1.08565772,26.7885265,0.953921556
+	pos = -1.39948654,16.1675797,3.57094002
 	attPos = 0,0,0
 	attPos0 = 0,-1.46516991,1.19653332
 	rot = 2.21253984E-08,0.707106829,2.21253966E-08,0.707106829
@@ -1233,7 +1024,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 1
+	istg = 2
 	resPri = 0
 	dstg = 3
 	sidx = 0
@@ -1345,7 +1136,7 @@ PART
 	part = Rockomax32.BW_4294505004
 	partName = Part
 	persistentId = 2765416103
-	pos = 1.08565819,26.8105602,2.82208347
+	pos = -1.39948606,16.1896133,5.43910217
 	attPos = 0,0,0
 	attPos0 = -1.86815631,0.0220336802,2.38418579E-07
 	rot = 8.73020625E-08,0.707106888,8.73020625E-08,0.707106769
@@ -1355,7 +1146,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Heaviest
 	rigidAttachment = False
-	istg = 1
+	istg = 2
 	resPri = 0
 	dstg = 4
 	sidx = -1
@@ -1442,7 +1233,7 @@ PART
 	part = Rockomax8BW_4294504934
 	partName = Part
 	persistentId = 3887491112
-	pos = 1.08565819,29.1255608,2.82208681
+	pos = -1.39948606,18.5046139,5.43910551
 	attPos = 0,0,0
 	attPos0 = -9.22193966E-09,2.31500053,-4.00745043E-14
 	rot = -1.77635684E-15,-1.00000012,-6.3859126E-08,0
@@ -1452,7 +1243,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 1
+	istg = 2
 	resPri = 0
 	dstg = 4
 	sidx = -1
@@ -1536,7 +1327,7 @@ PART
 	part = rocketNoseCone.v2_4294502676
 	partName = Part
 	persistentId = 3076529461
-	pos = 1.08565819,29.5805607,2.82208943
+	pos = -1.39948606,18.9596138,5.43910789
 	attPos = 0,0,0
 	attPos0 = -6.40504538E-09,0.454999924,3.2951138E-07
 	rot = 2.40817695E-08,0.707106769,2.40817606E-08,0.707107008
@@ -1546,7 +1337,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 1
+	istg = 2
 	resPri = 0
 	dstg = 4
 	sidx = -1
@@ -1605,7 +1396,7 @@ PART
 	part = fuelLine_4294497014
 	partName = CompoundPart
 	persistentId = 3052371188
-	pos = 0.0327823162,28.8196793,2.21421289
+	pos = -2.45236206,18.1987324,4.83123159
 	attPos = 0,0,0
 	attPos0 = 1.05287075,-0.305881441,0.607874215
 	rot = 7.42593826E-08,-0.258818954,-6.34630553E-08,0.965925932
@@ -1615,7 +1406,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 1
+	istg = 2
 	resPri = 0
 	dstg = 4
 	sidx = -1
@@ -1652,8 +1443,8 @@ PART
 	PARTDATA
 	{
 		tgt = 4294529244
-		pos = -0.1210614,0.103664309,-1.45650244
-		rot = 0,-0.60876137,5.41616814E-08,0.793353379
+		pos = -0.121060953,0.103664309,-1.45649457
+		rot = 0,-0.60876143,5.41617133E-08,0.793353319
 		dir = -0.082624428,0.0707514063,-0.994066119
 		col = collider
 	}
@@ -1709,7 +1500,7 @@ PART
 	part = engineLargeSkipper.v2_4294504806
 	partName = Part
 	persistentId = 1787954116
-	pos = 1.08565819,23.9375591,2.82208633
+	pos = -1.39948606,13.3166122,5.43910503
 	attPos = 0,0,0
 	attPos0 = -3.13175462E-07,-2.8730011,1.43516113E-14
 	rot = -4.51552111E-08,-0.707106829,-4.5155204E-08,-0.707106829
@@ -1719,7 +1510,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 3
+	istg = 4
 	resPri = 0
 	dstg = 4
 	sidx = 0
@@ -1975,7 +1766,7 @@ PART
 	part = R8winglet_4294302244
 	partName = Part
 	persistentId = 2486035006
-	pos = -0.15305233,25.5714912,4.06079865
+	pos = -2.63819647,14.9505444,6.67781734
 	attPos = 0,0,0
 	attPos0 = -1.23871028,-1.23906863,-1.23870921
 	rot = 1.07489399E-07,0.382683575,3.137108E-08,0.923879564
@@ -1985,7 +1776,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 1
+	istg = 2
 	resPri = 0
 	dstg = 4
 	sidx = -1
@@ -2138,7 +1929,7 @@ PART
 	part = R8winglet_4294301970
 	partName = Part
 	persistentId = 4079010786
-	pos = 2.32456064,25.4884338,4.06098557
+	pos = -0.160583735,14.867487,6.67800426
 	attPos = 0,0,0
 	attPos0 = -1.23890078,-1.32212603,1.23889971
 	rot = 5.25501882E-08,0.923879743,1.16262079E-07,0.382683307
@@ -2148,7 +1939,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 1
+	istg = 2
 	resPri = 0
 	dstg = 4
 	sidx = -1
@@ -2301,7 +2092,7 @@ PART
 	part = radialDecoupler2_4294500498
 	partName = Part
 	persistentId = 4098495991
-	pos = 1.0856576,26.7885265,-1.43914509
+	pos = -1.39948666,16.1675797,1.17787349
 	attPos = 0,0,0
 	attPos0 = -1.1920929E-07,-1.46516991,-1.19653332
 	rot = 2.21253948E-08,0.707106769,-2.21254002E-08,-0.707106888
@@ -2311,7 +2102,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 1
+	istg = 2
 	resPri = 0
 	dstg = 3
 	sidx = 0
@@ -2423,7 +2214,7 @@ PART
 	part = Rockomax32.BW_4294500426
 	partName = Part
 	persistentId = 121323983
-	pos = 1.08565712,26.8105602,-3.3073082
+	pos = -1.39948714,16.1896133,-0.690289497
 	attPos = 0,0,0
 	attPos0 = -1.86815631,0.0220336802,2.38418579E-07
 	rot = 8.73020412E-08,0.707106709,-8.73020696E-08,-0.707106948
@@ -2433,7 +2224,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Heaviest
 	rigidAttachment = False
-	istg = 1
+	istg = 2
 	resPri = 0
 	dstg = 4
 	sidx = -1
@@ -2520,7 +2311,7 @@ PART
 	part = Rockomax8BW_4294500350
 	partName = Part
 	persistentId = 1505417568
-	pos = 1.085657,29.1255608,-3.30731344
+	pos = -1.39948726,18.5046139,-0.690294743
 	attPos = 0,0,0
 	attPos0 = -9.22193966E-09,2.31500053,-4.00745043E-14
 	rot = -6.38591189E-08,1.1920929E-07,1.95399252E-14,1.00000012
@@ -2530,7 +2321,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 1
+	istg = 2
 	resPri = 0
 	dstg = 4
 	sidx = -1
@@ -2614,7 +2405,7 @@ PART
 	part = rocketNoseCone.v2_4294500280
 	partName = Part
 	persistentId = 2582980860
-	pos = 1.085657,29.5805607,-3.30731726
+	pos = -1.39948726,18.9596138,-0.690298557
 	attPos = 0,0,0
 	attPos0 = -6.40504538E-09,0.454999924,3.2951138E-07
 	rot = 2.40817748E-08,0.707106948,-2.40817961E-08,-0.707106829
@@ -2624,7 +2415,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 1
+	istg = 2
 	resPri = 0
 	dstg = 4
 	sidx = -1
@@ -2683,7 +2474,7 @@ PART
 	part = fuelLine_4294497126
 	partName = CompoundPart
 	persistentId = 2662942365
-	pos = 2.13853216,28.8196793,-2.69943905
+	pos = -0.346612215,18.1987324,-0.0824203491
 	attPos = 0,0,0
 	attPos0 = 1.05287027,-0.305881441,0.607874513
 	rot = -6.3463041E-08,0.96592617,-7.4259404E-08,0.258818805
@@ -2693,7 +2484,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 1
+	istg = 2
 	resPri = 0
 	dstg = 4
 	sidx = -1
@@ -2730,8 +2521,8 @@ PART
 	PARTDATA
 	{
 		tgt = 4294529244
-		pos = -0.121061556,0.103664309,-1.45650518
-		rot = 0,-0.608761966,1.1332196E-07,0.793353021
+		pos = -0.121061265,0.103664309,-1.45649648
+		rot = 0,-0.608761966,1.13321995E-07,0.793353021
 		dir = -0.082624428,0.0707514063,-0.994066119
 		col = collider
 	}
@@ -2787,7 +2578,7 @@ PART
 	part = engineLargeSkipper.v2_4294500210
 	partName = Part
 	persistentId = 2073736231
-	pos = 1.085657,23.9375591,-3.30731297
+	pos = -1.39948726,13.3166122,-0.690294266
 	attPos = 0,0,0
 	attPos0 = -3.13175462E-07,-2.8730011,1.43516113E-14
 	rot = -4.51552182E-08,-0.707106769,4.51552289E-08,0.707106888
@@ -2797,7 +2588,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 3
+	istg = 4
 	resPri = 0
 	dstg = 4
 	sidx = 0
@@ -3053,7 +2844,7 @@ PART
 	part = R8winglet_4294302032
 	partName = Part
 	persistentId = 4054635704
-	pos = 2.32436872,25.5714912,-4.54602146
+	pos = -0.160775542,14.9505444,-1.92900276
 	attPos = 0,0,0
 	attPos0 = -1.23871124,-1.23906863,-1.23870981
 	rot = 3.13710942E-08,0.923879504,-1.07489399E-07,-0.382683665
@@ -3063,7 +2854,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 1
+	istg = 2
 	resPri = 0
 	dstg = 4
 	sidx = -1
@@ -3216,7 +3007,7 @@ PART
 	part = R8winglet_4294301790
 	partName = Part
 	persistentId = 2239703918
-	pos = -0.153245091,25.4884338,-4.54621124
+	pos = -2.63838935,14.867487,-1.92919254
 	attPos = 0,0,0
 	attPos0 = -1.23890173,-1.32212603,1.23890007
 	rot = 1.16262072E-07,0.382683247,-5.2550206E-08,-0.923879743
@@ -3226,7 +3017,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 1
+	istg = 2
 	resPri = 0
 	dstg = 4
 	sidx = -1
@@ -3379,7 +3170,7 @@ PART
 	part = radialDecoupler2_4294499938
 	partName = Part
 	persistentId = 403141795
-	pos = 2.28360319,26.6904907,-0.242611721
+	pos = -0.201541066,16.0695438,2.37440681
 	attPos = 0,0,0
 	attPos0 = 1.19794548,-1.56320572,6.89178705E-08
 	rot = -2.76675971E-09,1,-1.57009256E-16,8.42937027E-08
@@ -3389,7 +3180,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 2
+	istg = 3
 	resPri = 0
 	dstg = 3
 	sidx = 0
@@ -3501,7 +3292,7 @@ PART
 	part = Rockomax32.BW_4294499866
 	partName = Part
 	persistentId = 3729492935
-	pos = 4.15176249,26.7125244,-0.242611647
+	pos = 1.66661835,16.0915775,2.37440705
 	attPos = 0,0,0
 	attPos0 = -1.86815631,0.0220336802,2.38418579E-07
 	rot = 8.94069601E-08,1,4.89422964E-15,2.46890579E-08
@@ -3511,7 +3302,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Heaviest
 	rigidAttachment = False
-	istg = 2
+	istg = 3
 	resPri = 0
 	dstg = 4
 	sidx = -1
@@ -3599,7 +3390,7 @@ PART
 	part = Rockomax8BW_4294499790
 	partName = Part
 	persistentId = 2345210279
-	pos = 4.15176487,29.0275249,-0.242611647
+	pos = 1.66662073,18.4065781,2.37440705
 	attPos = 0,0,0
 	attPos0 = -9.22193966E-09,2.31500053,-4.00745043E-14
 	rot = -2.10734221E-08,-0.707106888,-2.10734292E-08,0.707106769
@@ -3609,7 +3400,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 2
+	istg = 3
 	resPri = 0
 	dstg = 4
 	sidx = -1
@@ -3692,7 +3483,7 @@ PART
 	part = rocketNoseCone.v2_4294499720
 	partName = Part
 	persistentId = 3570725008
-	pos = 4.15176678,29.4825249,-0.242611647
+	pos = 1.66662264,18.861578,2.37440705
 	attPos = 0,0,0
 	attPos0 = -6.40504538E-09,0.454999924,3.2951138E-07
 	rot = -5.99520433E-15,1.00000012,-3.5303914E-15,2.33305315E-07
@@ -3702,7 +3493,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 2
+	istg = 3
 	resPri = 0
 	dstg = 4
 	sidx = -1
@@ -3761,7 +3552,7 @@ PART
 	part = engineLargeSkipper.v2_4294499650
 	partName = Part
 	persistentId = 1397513451
-	pos = 4.15176487,23.8395233,-0.242611647
+	pos = 1.66662073,13.2185764,2.37440705
 	attPos = 0,0,0
 	attPos0 = -3.13175462E-07,-2.8730011,1.43516113E-14
 	rot = -2.98023295E-08,-1,-3.42264902E-15,-1.08982753E-07
@@ -3771,7 +3562,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 3
+	istg = 4
 	resPri = 0
 	dstg = 4
 	sidx = 1
@@ -4027,7 +3818,7 @@ PART
 	part = fuelLine_4294497276
 	partName = CompoundPart
 	persistentId = 2947815948
-	pos = 4.15176296,28.3261166,1.00069559
+	pos = 1.66661882,17.7051697,3.61771417
 	attPos = 0,0,0
 	attPos0 = -2.69580624E-07,1.61359215,-1.24330592
 	rot = 4.10948182E-08,0.707106829,-8.53456541E-08,0.707106829
@@ -4037,7 +3828,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 2
+	istg = 3
 	resPri = 0
 	dstg = 4
 	sidx = -1
@@ -4074,8 +3865,8 @@ PART
 	PARTDATA
 	{
 		tgt = 4294505004
-		pos = -2.11911201,0.0641932338,-1.89587724
-		rot = 0,-0.793353081,2.46775897E-08,0.608761728
+		pos = -2.11911249,0.0641836971,-1.8958776
+		rot = 0,-0.793353021,2.46685925E-08,0.608761847
 		dir = -0.745081186,0.0225697123,-0.666591823
 		col = collider
 	}
@@ -4131,7 +3922,7 @@ PART
 	part = R8winglet_4294302814
 	partName = Part
 	persistentId = 2742103022
-	pos = 5.39258528,25.435173,-1.4834342
+	pos = 2.90744114,14.8142262,1.13358438
 	attPos = 0,0,0
 	attPos0 = -1.24082279,-1.27735114,1.24082267
 	rot = -8.78917632E-08,-0.923879623,-3.20231948E-08,0.382683396
@@ -4141,7 +3932,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 2
+	istg = 3
 	resPri = 0
 	dstg = 4
 	sidx = -1
@@ -4294,7 +4085,7 @@ PART
 	part = R8winglet_4294302308
 	partName = Part
 	persistentId = 1081493009
-	pos = 5.39451265,25.4125233,1.00013852
+	pos = 2.90936852,14.7915764,3.61715698
 	attPos = 0,0,0
 	attPos0 = -1.24275041,-1.30000091,-1.24275005
 	rot = 6.67296334E-08,0.923879504,-4.07888159E-08,0.382683486
@@ -4304,7 +4095,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 2
+	istg = 3
 	resPri = 0
 	dstg = 4
 	sidx = -1
@@ -4457,7 +4248,7 @@ PART
 	part = radialDecoupler2_4294498324
 	partName = Part
 	persistentId = 2221207477
-	pos = -0.11228776,26.6904907,-0.242611766
+	pos = -2.59743214,16.0695438,2.37440681
 	attPos = 0,0,0
 	attPos0 = -1.19794548,-1.56320572,3.53902578E-08
 	rot = -3.60703488E-17,4.05823144E-08,2.76675971E-09,-1
@@ -4467,7 +4258,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 2
+	istg = 3
 	resPri = 0
 	dstg = 3
 	sidx = 0
@@ -4579,7 +4370,7 @@ PART
 	part = Rockomax32.BW_4294498246
 	partName = Part
 	persistentId = 3231727722
-	pos = -1.98044813,26.7125244,-0.242611676
+	pos = -4.46559238,16.0915775,2.37440681
 	attPos = 0,0,0
 	attPos0 = -1.86815631,0.0220336802,2.38418579E-07
 	rot = 9.8612751E-16,-1.90223304E-08,-8.94069601E-08,-1
@@ -4589,7 +4380,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Heaviest
 	rigidAttachment = False
-	istg = 2
+	istg = 3
 	resPri = 0
 	dstg = 4
 	sidx = -1
@@ -4677,7 +4468,7 @@ PART
 	part = Rockomax8BW_4294498164
 	partName = Part
 	persistentId = 3702627354
-	pos = -1.98045218,29.0275249,-0.242611617
+	pos = -4.4655962,18.4065781,2.37440705
 	attPos = 0,0,0
 	attPos0 = -9.22193966E-09,2.31500053,-4.00745043E-14
 	rot = -2.10734274E-08,0.707106829,2.10734186E-08,0.707106829
@@ -4687,7 +4478,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 2
+	istg = 3
 	resPri = 0
 	dstg = 4
 	sidx = -1
@@ -4770,7 +4561,7 @@ PART
 	part = rocketNoseCone.v2_4294498088
 	partName = Part
 	persistentId = 2177260956
-	pos = -1.98045623,29.4825249,-0.242611319
+	pos = -4.46560049,18.861578,2.37440729
 	attPos = 0,0,0
 	attPos0 = -6.40504538E-09,0.454999924,3.2951138E-07
 	rot = -3.53039076E-15,1.89593933E-07,5.99520433E-15,-1.00000012
@@ -4780,7 +4571,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 2
+	istg = 3
 	resPri = 0
 	dstg = 4
 	sidx = -1
@@ -4839,7 +4630,7 @@ PART
 	part = engineLargeSkipper.v2_4294498012
 	partName = Part
 	persistentId = 7857417
-	pos = -1.98045146,23.8395233,-0.242611736
+	pos = -4.46559572,13.2185764,2.37440681
 	attPos = 0,0,0
 	attPos0 = -3.13175462E-07,-2.8730011,1.43516113E-14
 	rot = -2.11994665E-15,-6.52713652E-08,2.98023295E-08,1
@@ -4849,7 +4640,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 3
+	istg = 4
 	resPri = 0
 	dstg = 4
 	sidx = 1
@@ -5105,7 +4896,7 @@ PART
 	part = fuelLine_4294497718
 	partName = CompoundPart
 	persistentId = 483148906
-	pos = -1.9804486,28.3261166,-1.48591876
+	pos = -4.46559286,17.7051697,1.13109982
 	attPos = 0,0,0
 	attPos0 = -3.11619957E-08,1.61359215,-1.24330592
 	rot = -8.53457252E-08,0.707106829,-4.10948502E-08,-0.707106829
@@ -5115,7 +4906,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 2
+	istg = 3
 	resPri = 0
 	dstg = 4
 	sidx = -1
@@ -5152,8 +4943,8 @@ PART
 	PARTDATA
 	{
 		tgt = 4294500426
-		pos = -2.11911583,0.0641798824,-1.89587867
-		rot = 0,-0.793353021,2.46777176E-08,0.608761907
+		pos = -2.11911464,0.0641836971,-1.89587831
+		rot = 0,-0.793353021,2.46685872E-08,0.608761907
 		dir = -0.745081186,0.0225697123,-0.666591823
 		col = collider
 	}
@@ -5209,7 +5000,7 @@ PART
 	part = R8winglet_4294303120
 	partName = Part
 	persistentId = 3330007739
-	pos = -3.22127104,25.435173,0.998211026
+	pos = -5.70641518,14.8142262,3.61522961
 	attPos = 0,0,0
 	attPos0 = -1.24082303,-1.27735114,1.24082267
 	rot = -3.20231912E-08,0.382683456,8.78917632E-08,0.923879623
@@ -5219,7 +5010,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 2
+	istg = 3
 	resPri = 0
 	dstg = 4
 	sidx = -1
@@ -5380,7 +5171,7 @@ PART
 	part = R8winglet_4294302752
 	partName = Part
 	persistentId = 8202028
-	pos = -3.22319841,25.4125233,-1.4853617
+	pos = -5.70834255,14.7915764,1.13165689
 	attPos = 0,0,0
 	attPos0 = -1.24275017,-1.30000091,-1.24275005
 	rot = -4.07888088E-08,0.382683456,-6.67296476E-08,-0.923879564
@@ -5390,7 +5181,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 2
+	istg = 3
 	resPri = 0
 	dstg = 4
 	sidx = -1
@@ -5543,7 +5334,7 @@ PART
 	part = mumech.MJ2.AR202_4294531778
 	partName = Part
 	persistentId = 855117870
-	pos = 1.0856576,38.9201012,-1.48570335
+	pos = -1.39948666,28.2991543,1.13131523
 	attPos = 0,0,0
 	attPos0 = -1.1920929E-07,1.52640438,-1.24309158
 	rot = -1.10626956E-08,0.707106769,1.10626965E-08,-0.707106888
@@ -5553,7 +5344,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -1
+	istg = 0
 	resPri = 0
 	dstg = 0
 	sidx = -1
@@ -5718,571 +5509,6 @@ PART
 			{
 				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		MechJebLocalSettings
-		{
-			MechJebModuleMenu
-			{
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleRoverWindow
-			{
-				unlockParts = 
-				unlockTechs = fieldScience
-			}
-			MechJebModuleAttitudeAdjustment
-			{
-				unlockParts = 
-				unlockTechs = advFlightControl
-			}
-			MechJebModuleAscentNavBall
-			{
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleLogicalStageTracking
-			{
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleRCSBalancerWindow
-			{
-				unlockParts = 
-				unlockTechs = advFlightControl
-			}
-			MechJebModuleRoverController
-			{
-				ControlHeading = False
-				ControlSpeed = False
-				BrakeOnEject = False
-				BrakeOnEnergyDepletion = False
-				WarpToDaylight = False
-				StabilityControl = False
-				LimitAcceleration = False
-				unlockParts = 
-				unlockTechs = 
-				heading
-				{
-					_val = 0
-					_text = 0
-				}
-				speed
-				{
-					_val = 10
-					_text = 10
-				}
-			}
-			MechJebModuleSpaceplaneGuidance
-			{
-				runwayIndex = 0
-				unlockParts = 
-				unlockTechs = unmannedTech
-			}
-			MechJebModuleAscentPVG
-			{
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleInfoItems
-			{
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleSmartRcs
-			{
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleAscentClassic
-			{
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleSpaceplaneAutopilot
-			{
-				bBreakAsSoonAsLanded = False
-				unlockParts = 
-				unlockTechs = 
-				glideslope
-				{
-					_val = 2.5
-					_text = 2.5
-				}
-				approachSpeed
-				{
-					_val = 80
-					_text = 80
-				}
-				touchdownSpeed
-				{
-					_val = 60
-					_text = 60
-				}
-				maximumSafeBankAngle
-				{
-					_val = 25
-					_text = 25
-				}
-			}
-			MechJebModuleAirplaneAutopilot
-			{
-				HeadingHoldEnabled = False
-				AltitudeHoldEnabled = False
-				VertSpeedHoldEnabled = False
-				RollHoldEnabled = False
-				SpeedHoldEnabled = False
-				AltitudeTarget = 0
-				HeadingTarget = 90
-				RollTarget = 0
-				SpeedTarget = 0
-				VertSpeedTarget = 0
-				BankAngle = 30
-				unlockParts = 
-				unlockTechs = 
-				AccKp
-				{
-					_val = 0.5
-					_text = 0.5
-				}
-				AccKi
-				{
-					_val = 0.5
-					_text = 0.5
-				}
-				AccKd
-				{
-					_val = 0.0050000000000000001
-					_text = 0.005
-				}
-				PitKp
-				{
-					_val = 2
-					_text = 2
-				}
-				PitKi
-				{
-					_val = 1
-					_text = 1
-				}
-				PitKd
-				{
-					_val = 0.0050000000000000001
-					_text = 0.005
-				}
-				RolKp
-				{
-					_val = 0.5
-					_text = 0.5
-				}
-				RolKi
-				{
-					_val = 0.02
-					_text = 0.02
-				}
-				RolKd
-				{
-					_val = 0.5
-					_text = 0.5
-				}
-				YawKp
-				{
-					_val = 1
-					_text = 1
-				}
-				YawKi
-				{
-					_val = 0.25
-					_text = 0.25
-				}
-				YawKd
-				{
-					_val = 0.02
-					_text = 0.02
-				}
-				YawLimit
-				{
-					_val = 10
-					_text = 10
-				}
-				RollLimit
-				{
-					_val = 45
-					_text = 45
-				}
-				PitchDownLimit
-				{
-					_val = 15
-					_text = 15
-				}
-				PitchUpLimit
-				{
-					_val = 25
-					_text = 25
-				}
-			}
-			MechJebModuleDockingGuidance
-			{
-				unlockParts = 
-				unlockTechs = advUnmanned
-			}
-			MechJebModuleSettings
-			{
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleAscentGT
-			{
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleDebugArrows
-			{
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleSmartASS
-			{
-				mode = ORBITAL
-				target = OFF
-				advReference = INERTIAL
-				advDirection = FORWARD
-				forceRol = False
-				forcePitch = True
-				forceYaw = True
-				unlockParts = 
-				unlockTechs = flightControl
-				srfHdg
-				{
-					_val = 90
-					_text = 90
-				}
-				srfPit
-				{
-					_val = 90
-					_text = 90
-				}
-				srfRol
-				{
-					_val = 0
-					_text = 0
-				}
-				srfVelYaw
-				{
-					_val = 0
-					_text = 0
-				}
-				srfVelPit
-				{
-					_val = 0
-					_text = 0
-				}
-				srfVelRol
-				{
-					_val = 0
-					_text = 0
-				}
-				rol
-				{
-					_val = 0
-					_text = 0
-				}
-			}
-			MechJebModuleDockingAutopilot
-			{
-				forceRol = False
-				overrideSafeDistance = False
-				overrideTargetSize = False
-				unlockParts = 
-				unlockTechs = 
-				rol
-				{
-					_val = 0
-					_text = 0
-				}
-			}
-			ModExtensionDemo
-			{
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleThrustWindow
-			{
-				autostageSavedState = False
-				unlockParts = 
-				unlockTechs = advFlightControl
-			}
-			MechJebModuleWarpHelper
-			{
-				unlockParts = 
-				unlockTechs = advFlightControl
-				phaseAngle
-				{
-					_val = 0
-					_text = 0
-				}
-			}
-			MechJebModuleCustomWindowEditor
-			{
-				unlockParts = 
-				unlockTechs = flightControl
-			}
-			MechJebModuleAscentAutopilot
-			{
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleRendezvousAutopilotWindow
-			{
-				unlockParts = 
-				unlockTechs = advUnmanned
-			}
-			MechJebModuleNodeExecutor
-			{
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleNodeEditor
-			{
-				unlockParts = 
-				unlockTechs = advFlightControl
-			}
-			MechJebModuleLandingAutopilot
-			{
-				deployGears = True
-				deployChutes = True
-				rcsAdjustment = True
-				unlockParts = 
-				unlockTechs = 
-				touchdownSpeed
-				{
-					_val = 0.5
-					_text = 0.5
-				}
-				limitGearsStage
-				{
-					val = 0
-					_text = 0
-				}
-				limitChutesStage
-				{
-					val = 0
-					_text = 0
-				}
-			}
-			MechJebModuleScript
-			{
-				minifiedGUI = False
-				selectedSlot = 0
-				selectedMemorySlotType = 0
-				activeSavepoint = -1
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleLandingGuidance
-			{
-				landingSiteIdx = 0
-				unlockParts = 
-				unlockTechs = unmannedTech
-			}
-			MechJebModuleLandingPredictions
-			{
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleTranslatron
-			{
-				unlockParts = 
-				unlockTechs = advFlightControl
-				trans_spd
-				{
-					_val = 0
-					_text = 0
-				}
-			}
-			MechJebModuleAscentGuidance
-			{
-				unlockParts = 
-				unlockTechs = unmannedTech
-			}
-			MechJebModuleRendezvousAutopilot
-			{
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleWaypointWindow
-			{
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleWaypointHelpWindow
-			{
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleTargetController
-			{
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleManeuverPlanner
-			{
-				unlockParts = 
-				unlockTechs = advFlightControl
-			}
-			MechJebModuleStageStats
-			{
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleAirplaneGuidance
-			{
-				showpid = False
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleGuidanceController
-			{
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleRendezvousGuidance
-			{
-				unlockParts = 
-				unlockTechs = advUnmanned
-			}
-			MechJebModuleAscentClassicMenu
-			{
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleCustomInfoWindow
-			{
-			}
-			MechJebModuleCustomInfoWindow
-			{
-			}
-			MechJebModuleCustomInfoWindow
-			{
-			}
-			MechJebModuleCustomInfoWindow
-			{
-			}
-			MechJebModuleWarpController
-			{
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleDeployableAntennaController
-			{
-				prev_shouldDeploy = False
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleSolarPanelController
-			{
-				prev_shouldDeploy = False
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleThrustController
-			{
-				limitThrottle = False
-				limiterMinThrottle = False
-				electricThrottle = False
-				unlockParts = 
-				unlockTechs = 
-				maxThrottle
-				{
-					_val = 1
-					_text = 100
-				}
-				minThrottle
-				{
-					_val = 0.050000000000000003
-					_text = 5
-				}
-				electricThrottleLo
-				{
-					_val = 0.050000000000000003
-					_text = 5
-				}
-				electricThrottleHi
-				{
-					_val = 0.14999999999999999
-					_text = 15
-				}
-			}
-			MechJebModuleRCSController
-			{
-				unlockParts = 
-				unlockTechs = 
-				Tf
-				{
-					_val = 1
-					_text = 1
-				}
-				Kp
-				{
-					_val = 0.125
-					_text = 0.125
-				}
-				Ki
-				{
-					_val = 0.070000000000000007
-					_text = 0.07
-				}
-				Kd
-				{
-					_val = 0.53000000000000003
-					_text = 0.53
-				}
-			}
-			MechJebModuleRCSBalancer
-			{
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleAttitudeController
-			{
-				unlockParts = 
-				unlockTechs = 
-				MJAttitudeController
-				{
-				}
-				KosAttitudeController
-				{
-				}
-				HybridController
-				{
-				}
-			}
-			MechJebModuleStagingController
-			{
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleFlightRecorder
-			{
-				markUT = 0
-				deltaVExpended = 0
-				dragLosses = 0
-				gravityLosses = 0
-				steeringLosses = 0
-				markLAN = 0
-				markLatitude = 0
-				markLongitude = 0
-				markAltitude = 0
-				markBodyIndex = 1
-				maxDragGees = 0
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleFlightRecorderGraph
-			{
-				unlockParts = 
-				unlockTechs = 
 			}
 		}
 		UPGRADESAPPLIED
