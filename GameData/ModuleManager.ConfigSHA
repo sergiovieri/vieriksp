@@ -1,4 +1,4 @@
-SHA = AD-B0-C0-86-0A-63-52-38-5E-1D-94-24-18-1D-41-D2-F0-B6-E8-D7-6B-0B-30-00-B2-09-39-9F-11-13-30-AA
+SHA = 7E-14-4C-D5-12-8D-68-F2-6C-67-04-75-AE-36-2F-86-ED-64-75-AA-40-2C-45-1A-0B-9E-48-09-F0-E1-8D-CD
 version = 4.1.3.0
 KSPVersion = 1.10.0.2917
 FilesSHA
@@ -312,6 +312,301 @@ FilesSHA
 	{
 		filename = MechJeb2/Parts/MechJeb2_Pod/part.cfg
 		SHA = 38-68-DC-07-B5-53-82-58-9F-FB-DA-3F-80-1D-74-56-C6-A0-8B-19-BC-C1-AD-5C-8E-80-F5-79-49-C4-3B-D2
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Localization/de-de.cfg
+		SHA = CD-84-53-AB-F0-51-89-3F-D5-F8-B9-70-8C-24-93-27-1F-96-F5-65-5D-0D-3C-7A-D7-D8-D5-79-21-10-54-1C
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Localization/en-us.cfg
+		SHA = EC-81-07-E1-B1-C2-F1-7F-6B-53-E6-C3-97-5B-44-59-87-37-35-6F-5C-7F-40-31-98-CB-38-EE-E3-23-70-11
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Localization/es-es.cfg
+		SHA = 0F-5D-F9-E8-80-60-22-B5-94-90-82-99-38-45-4F-8F-37-77-7E-7E-DA-73-F2-C3-E3-BB-1B-79-67-CB-BC-87
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Localization/ru.cfg
+		SHA = E9-4E-A5-95-F3-E3-0C-B7-41-42-24-14-DC-62-E9-00-32-98-95-AA-1F-87-CB-AB-C8-B9-C5-67-FF-A1-70-C6
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Localization/zh-cn.cfg
+		SHA = C4-7B-F8-5F-23-66-B4-3E-27-77-9D-FB-DD-1A-8F-51-FC-F7-97-4E-D7-C0-45-F9-42-24-2B-CB-B4-7E-0A-B8
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Adapters/adapter-125/adapter-125-0625-1.cfg
+		SHA = F9-F3-59-24-B6-E6-BC-2E-7E-1C-89-B5-69-53-1B-48-D6-BC-C9-9B-47-76-7C-46-F1-5E-AA-D1-58-E7-87-C0
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Adapters/adapter-125/adapter-125-0625-2.cfg
+		SHA = ED-0F-AE-68-B6-63-5C-02-9B-18-A4-9B-E9-DA-31-2E-AC-F7-28-E7-E8-23-BD-C5-9A-69-87-28-40-20-EE-32
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Adapters/adapter-125/adapter-125-0625-3.cfg
+		SHA = 11-14-73-71-F4-F5-DF-FC-82-67-AE-FB-0B-DF-5C-03-61-27-A7-A0-01-E7-A5-78-70-F2-11-A5-50-E9-C2-14
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Adapters/adapter-125/adapter-125-0625-4.cfg
+		SHA = 9C-FB-12-EC-0E-37-36-9B-09-2C-28-AA-B2-4F-AD-DF-B6-ED-C5-55-14-6E-B8-03-00-E8-38-BD-03-A1-C1-38
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Adapters/adapter-25/adapter-25-125.cfg
+		SHA = 5B-9E-E2-F7-A8-CA-CF-7A-C8-5D-89-01-80-1E-B1-AF-0C-B5-7D-AB-1D-12-68-A6-E2-EE-20-4E-2B-C8-69-6B
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Adapters/adapter-25/adapter-25-multi-1.cfg
+		SHA = 8B-9E-F0-7E-29-CB-0C-69-FC-11-1A-25-90-E3-C2-28-E5-E9-AD-74-B8-0C-CE-28-2A-08-97-8C-18-21-FC-BD
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Adapters/adapter-375/adapter-375-25-1.cfg
+		SHA = 0B-1F-22-77-A2-9E-79-06-B2-35-A7-83-F1-64-C6-A4-35-E2-C2-B7-70-53-CF-57-8D-DF-60-C2-48-D5-35-B9
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Adapters/adapter-radial/adapter-rad-0625.cfg
+		SHA = 69-CE-AD-6B-7A-5C-AE-18-3F-D1-0B-7E-D8-A1-B1-8B-E7-00-38-48-DD-78-8E-84-30-B4-A1-3F-37-22-19-FB
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Adapters/adapter-radial/adapter-rad-125.cfg
+		SHA = FB-0E-B7-C5-3E-52-38-6E-DE-7C-84-7B-F0-AA-23-35-D1-90-91-94-FB-67-27-CF-86-49-8E-7A-EE-5B-4D-30
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Docking/docking-truss/docking-linear-1.cfg
+		SHA = 6C-A0-A6-BB-65-0F-04-86-C7-48-65-91-18-1D-5C-58-B0-64-7F-3D-F8-8D-04-11-3F-A9-32-10-67-F1-9F-02
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Docking/docking-truss/docking-linear-2.cfg
+		SHA = 31-AD-76-BF-AD-5C-A0-F1-64-FA-27-91-65-7C-A4-BF-E8-0A-F8-50-C1-CB-E1-89-EE-20-33-01-3D-2B-B1-2D
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Truss/truss-circular/truss-circular-01.cfg
+		SHA = 42-3C-1F-2F-6E-32-09-CF-4C-E2-D4-0E-EF-28-9B-78-C9-56-1F-BF-FA-A4-AC-59-64-F4-21-E0-07-04-3E-BC
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Truss/truss-circular/truss-circular-02.cfg
+		SHA = DE-06-16-00-9F-48-C5-84-C5-E8-07-86-85-04-EE-17-56-9D-4F-12-AB-49-9B-F3-B8-4E-F4-34-D6-0A-11-72
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Truss/truss-circular/truss-circular-03.cfg
+		SHA = 40-C3-B4-B1-9A-A8-4C-2F-6C-DA-40-A5-9F-AE-DB-EA-46-AA-00-7D-02-21-A4-DC-36-53-35-86-B6-7D-F9-F2
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Truss/truss-circular/truss-circular-04.cfg
+		SHA = E8-98-04-D8-CE-AE-1D-04-E7-2E-F0-B9-CD-5A-1A-DA-98-A7-75-08-04-8C-C3-D7-2D-7D-7A-9A-E9-FC-EB-4C
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Truss/truss-circular/truss-circular-adapter-01.cfg
+		SHA = 49-57-EB-6D-6C-66-D5-DB-12-A0-64-D9-75-81-7F-D4-10-8D-95-4D-C8-60-EF-42-62-DD-F4-58-DB-7D-7A-2F
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Truss/truss-circular/truss-circular-adapter-02.cfg
+		SHA = B6-2B-E5-08-4C-D3-35-CE-8B-62-AE-58-E5-C5-19-EE-AD-46-CE-69-04-DA-29-E1-5A-0D-2D-D5-BB-8C-7B-0E
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Truss/truss-circular/truss-circular-docking-01.cfg
+		SHA = BC-C3-6E-4E-3A-8B-CA-55-FD-43-7D-F5-8F-66-4E-FE-52-E7-32-A7-B0-CC-B5-AD-33-49-30-3B-5A-CB-4C-60
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Truss/truss-hex/truss-hex-01.cfg
+		SHA = 39-02-CC-AA-00-5E-C2-C6-6D-4C-06-5D-81-57-AF-3F-A0-AF-67-29-4A-C4-EA-B1-59-DA-07-38-DA-6D-D5-1E
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Truss/truss-hex/truss-hex-02.cfg
+		SHA = 54-8E-55-47-8C-8A-FA-61-32-8E-9A-39-5E-6A-81-DE-20-E4-5B-30-E5-84-27-B2-A0-AE-65-12-04-F7-5B-2F
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Truss/truss-hex/truss-hex-03.cfg
+		SHA = 77-70-13-31-E0-80-63-61-2D-E2-42-4A-0C-2A-FE-CC-CA-0A-0E-B1-A3-06-31-A3-B2-D7-40-73-FE-FD-6A-1E
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Truss/truss-hex/truss-hex-adapter-01.cfg
+		SHA = 38-16-69-53-3D-2D-F4-8F-CE-13-9D-EF-5E-89-A7-21-68-9A-30-F9-32-22-13-25-1B-BF-A3-22-72-52-1F-B4
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Truss/truss-micro/truss-micro-1.cfg
+		SHA = 2D-2A-11-A4-E8-09-EB-8D-1D-B4-2E-4A-93-E1-E9-27-39-AD-3D-71-9D-59-3B-19-85-87-75-34-E8-B0-F0-B8
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Truss/truss-micro/truss-micro-2.cfg
+		SHA = 94-85-64-FA-39-29-68-5A-12-D9-42-DF-1D-0D-A5-14-11-AC-12-FC-76-46-56-07-76-91-8C-86-29-00-AB-C1
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Truss/truss-micro/truss-micro-adapter-1.cfg
+		SHA = 58-A4-E7-7C-97-78-3D-38-38-4D-D5-DE-3B-CA-3B-60-F2-4F-6E-49-0E-28-AB-CE-AB-DF-8B-32-9C-09-30-CE
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Truss/truss-octo/truss-octo-01.cfg
+		SHA = 92-78-6A-FF-5C-0F-9A-5A-CA-89-0D-09-66-EA-D9-12-9D-11-0E-F2-BD-1C-BE-6B-A1-CE-B7-69-4F-FC-9C-28
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Truss/truss-octo/truss-octo-02.cfg
+		SHA = 23-84-51-A2-9E-5F-A8-96-FC-91-A2-E0-76-39-68-F3-61-A2-69-83-24-4D-8B-3B-0A-DD-39-78-6A-0E-B1-8E
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Truss/truss-octo/truss-octo-03.cfg
+		SHA = 20-99-23-D1-2A-87-AE-4A-37-45-21-B4-5A-80-AA-FD-31-B8-36-A0-FE-A8-BC-AB-04-E0-3D-BC-0A-2E-C6-25
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Truss/truss-octo/truss-octo-04.cfg
+		SHA = B8-91-71-C5-8F-6F-24-33-8D-1E-CF-3E-CE-65-78-04-AA-55-01-2D-21-24-1E-9C-E6-73-D6-12-DC-16-80-35
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Truss/truss-octo/truss-octo-adapter-01.cfg
+		SHA = 75-0D-B3-89-15-E8-C6-69-96-D8-DE-BD-6B-F0-B8-89-0A-E2-9C-B0-54-56-A9-C2-AC-EB-2E-1B-BB-0B-AC-23
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Truss/truss-octo/truss-octo-adapter-crew-01.cfg
+		SHA = B9-96-F9-25-43-D9-63-7B-08-D5-2F-48-15-53-A1-23-E0-95-67-2F-5C-0F-B4-00-EA-6E-FE-E0-65-42-20-A6
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Truss/truss-octo/truss-octo-angled-01.cfg
+		SHA = 24-82-7F-ED-75-04-07-E4-E6-8A-27-7C-9D-A0-36-7B-A7-4A-D6-3B-09-8C-A4-69-79-10-A0-51-F9-CF-93-68
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Truss/truss-octo/truss-octo-angled-crew-01.cfg
+		SHA = A0-BA-C5-45-69-22-8C-5F-F5-4F-D7-27-28-13-A9-69-F2-AB-25-77-02-44-99-B2-43-70-E9-F1-66-ED-3E-E5
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Truss/truss-octo/truss-octo-attach-01.cfg
+		SHA = 99-7E-6A-FB-EB-6E-A9-DC-12-DF-DA-76-77-4E-BC-73-70-24-8A-12-0B-B1-60-83-44-A4-54-75-52-D8-8E-A1
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Truss/truss-octo/truss-octo-crew-01.cfg
+		SHA = ED-CE-A6-BA-AF-67-A0-CC-3A-28-17-7A-E1-62-0F-30-FF-23-F7-55-32-05-04-B0-56-0E-5A-DD-EB-3A-1A-7B
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Truss/truss-octo/truss-octo-crew-02.cfg
+		SHA = 1E-8F-66-47-EB-F2-EF-FF-7D-ED-34-28-0B-EF-A1-34-9A-37-03-5E-37-83-39-F4-72-28-C2-04-FB-0F-33-43
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Truss/truss-octo/truss-octo-crew-03.cfg
+		SHA = 95-D1-62-0C-70-25-1C-B6-D7-B3-36-6B-48-61-DF-4F-E5-BF-2E-3F-7B-C0-90-FB-BA-17-58-6A-F6-73-6C-3B
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Truss/truss-octo/truss-octo-docking-125.cfg
+		SHA = 20-5D-BD-BB-24-14-48-EB-56-E4-9F-12-F7-64-09-F7-58-A6-5E-5A-3E-F7-5E-C7-52-B6-29-65-30-3F-CA-08
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Truss/truss-octo/truss-octo-docking-25.cfg
+		SHA = DA-AD-E1-0C-5C-B1-29-20-EB-15-38-98-41-8C-D7-0D-6D-E1-CB-51-62-2E-FF-86-34-93-B7-96-28-54-2C-9E
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Truss/truss-octo/truss-octo-docking-octo.cfg
+		SHA = 1E-71-07-4C-4E-37-F8-7F-13-CD-DF-89-46-58-88-20-F6-AF-D1-08-6E-9B-FE-3B-E5-22-1C-DE-3D-5D-11-2E
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Truss/truss-octo/truss-octo-drone-01.cfg
+		SHA = 1F-93-D9-82-E9-4E-02-7F-6C-D4-BB-7B-6F-A8-37-BD-B8-79-5C-63-84-D4-0D-A8-26-44-E3-9B-75-AE-5F-74
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Truss/truss-octo/truss-octo-hub-01.cfg
+		SHA = C7-8C-EE-29-A9-91-77-07-FF-74-82-B2-12-69-1B-EE-EC-34-BB-BB-73-11-10-C8-33-4E-40-E8-EB-A7-F9-19
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Truss/truss-octo/truss-octo-hub-crew-01.cfg
+		SHA = 65-E4-50-AE-86-FE-2A-1B-D5-37-32-D4-5E-9A-AD-50-03-FB-CB-65-20-B2-64-D3-3D-42-B6-D4-43-2F-28-34
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Truss/truss-spinal/truss-spinal-01.cfg
+		SHA = 6D-C3-0B-0C-C9-30-DC-2A-12-64-0E-64-ED-AD-7E-DC-70-BB-55-48-CB-5E-7D-D6-4D-60-26-0D-FF-F5-D6-15
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Truss/truss-spinal/truss-spinal-02.cfg
+		SHA = 2B-42-D3-9A-46-B8-1D-4B-C8-A3-54-AA-76-04-F8-C1-91-E3-49-6C-9D-00-EF-2C-70-F3-F3-09-8D-B8-37-AC
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Truss/truss-spinal/truss-spinal-03.cfg
+		SHA = 93-EB-BD-4E-59-4D-89-24-F3-44-98-CC-1F-0E-00-AC-27-2E-50-98-9C-F7-A6-42-35-FE-E1-75-0D-F6-64-BB
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Truss/truss-spinal/truss-spinal-adapter-01.cfg
+		SHA = 8E-92-1C-6D-E7-A3-85-2F-01-C7-60-29-85-A4-8C-56-17-AB-04-94-EB-58-DA-96-85-B4-CB-7F-AC-E6-25-63
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Truss/truss-spinal/truss-spinal-adapter-02.cfg
+		SHA = D9-B0-44-7C-A2-3D-A5-14-C1-52-00-37-BB-99-A2-CB-27-B7-E9-82-3A-4B-8A-6B-DA-EB-8C-1B-3B-8A-A7-8F
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Parts/Truss/truss-spinal/truss-spinal-docking-01.cfg
+		SHA = B2-B8-2A-53-2C-DE-79-A0-8A-EF-B4-39-CF-42-4D-05-00-5B-8D-0B-B5-CA-77-88-44-15-4D-28-4F-79-3D-18
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Patches/NFConstructionCommunityTechTree.cfg
+		SHA = 94-92-E2-1B-C3-19-83-BF-34-16-B9-AA-E9-3B-52-0F-6D-82-FE-5F-7E-E2-90-D3-74-23-DA-89-92-D3-50-D6
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Patches/NFConstructionConnectedLivingSpaces.cfg
+		SHA = 82-E4-E1-22-58-E7-67-91-F3-0D-E7-A6-1E-5A-CE-5E-94-81-C2-63-A2-9B-23-1A-B2-17-2C-1A-DA-90-44-CF
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Patches/NFConstructionCRPTrusses.cfg
+		SHA = B2-F7-2A-3C-AF-55-08-DA-69-C2-89-84-83-16-C0-1D-A8-92-75-4B-0C-81-41-0C-6E-54-21-D7-51-88-80-B6
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Patches/NFConstructionFuelTankTypes.cfg
+		SHA = 37-E4-D3-2F-2D-FE-1B-71-03-F4-A1-3C-04-B8-8D-78-DA-65-F3-55-43-2F-16-8F-F5-FB-48-B6-54-98-88-50
+	}
+	FILE
+	{
+		filename = NearFutureConstruction/Patches/NFConstructionStockPartReplacements.cfg
+		SHA = 4F-FE-C5-5D-88-F9-A6-03-49-98-D5-7B-97-EC-1A-9B-5A-1E-AF-B2-A5-A3-C5-D9-B0-21-AF-EF-BC-22-24-C5
 	}
 	FILE
 	{
@@ -1602,6 +1897,211 @@ FilesSHA
 	{
 		filename = NearFutureProps/Props/Tanks/NF_TANK_Wall_O2.cfg
 		SHA = EB-81-73-BD-1E-21-98-5C-AD-8B-90-95-30-DD-C6-80-E1-BD-17-5A-4B-12-B3-87-76-E4-29-E1-C4-60-D0-B7
+	}
+	FILE
+	{
+		filename = NearFutureSolar/Localization/de-de.cfg
+		SHA = 16-02-F0-61-39-A0-00-EC-C1-AE-39-D4-47-8D-B5-12-62-56-7F-FE-CF-E2-2B-C0-08-24-08-E4-C6-D4-7A-D1
+	}
+	FILE
+	{
+		filename = NearFutureSolar/Localization/en-us.cfg
+		SHA = 94-01-15-F9-DD-F0-7D-73-0B-EC-38-AC-4D-88-DD-61-50-5D-17-C4-09-B3-A6-D4-A9-C2-88-EA-E4-46-18-F9
+	}
+	FILE
+	{
+		filename = NearFutureSolar/Localization/es-es.cfg
+		SHA = 05-BE-8B-6B-F3-6F-9F-9B-AA-88-D3-B8-07-C2-4D-DA-CC-F5-03-9D-65-44-81-39-FA-A3-3A-36-82-5B-94-E3
+	}
+	FILE
+	{
+		filename = NearFutureSolar/Localization/it-it.cfg
+		SHA = 1A-22-23-CB-A5-60-4B-05-0F-4E-48-E9-3A-E0-C6-E8-D3-D3-F7-CD-26-B0-ED-9D-3F-CA-BB-CE-B1-FA-9A-96
+	}
+	FILE
+	{
+		filename = NearFutureSolar/Localization/pt-br.cfg
+		SHA = C0-7C-17-0C-89-B9-A2-40-5B-61-AA-5E-F1-4E-0D-AC-90-B0-FA-12-F6-08-56-D0-96-09-A4-CB-EF-70-05-CC
+	}
+	FILE
+	{
+		filename = NearFutureSolar/Localization/ru.cfg
+		SHA = 59-5C-39-E6-AC-AD-CD-8A-9B-93-E0-7A-92-0B-BC-E2-1E-7A-7B-44-49-E9-48-4C-7C-9F-64-AB-B6-92-AC-CF
+	}
+	FILE
+	{
+		filename = NearFutureSolar/Localization/zh-cn.cfg
+		SHA = C0-C5-FB-7B-25-10-47-59-9E-58-76-19-9A-6C-A3-66-83-4C-AF-47-A7-F2-F4-F5-26-E7-FE-76-1C-F9-C9-30
+	}
+	FILE
+	{
+		filename = NearFutureSolar/Parts/SolarPanels/deploying-advanced/nfs-panel-deploying-advanced-1x1-ikonos-1.cfg
+		SHA = 87-BB-B9-E7-42-74-26-4A-14-9F-DC-C3-B6-CA-A7-19-15-70-10-38-F7-5E-DD-F5-3A-4F-B3-59-7D-EC-1C-35
+	}
+	FILE
+	{
+		filename = NearFutureSolar/Parts/SolarPanels/deploying-advanced/nfs-panel-deploying-advanced-1x1-messenger-1.cfg
+		SHA = C5-F4-97-9D-A0-36-0E-E4-AC-17-A1-A7-90-57-97-51-61-35-E2-7F-0C-47-A8-57-61-F1-B1-CC-7D-82-C0-B9
+	}
+	FILE
+	{
+		filename = NearFutureSolar/Parts/SolarPanels/deploying-advanced/nfs-panel-deploying-advanced-1x2-mro-1.cfg
+		SHA = 0E-D6-6C-DA-DC-11-51-19-DC-7C-07-51-6E-E7-8C-1C-87-EF-07-A3-03-FB-00-6C-F8-A7-51-20-FF-DC-57-6E
+	}
+	FILE
+	{
+		filename = NearFutureSolar/Parts/SolarPanels/deploying-advanced/nfs-panel-deploying-advanced-1x2-wv4-1.cfg
+		SHA = 58-3A-82-88-87-45-18-11-94-FA-98-AD-46-A5-5C-AF-70-B0-A3-29-14-E2-90-F1-14-A6-36-2D-00-81-31-38
+	}
+	FILE
+	{
+		filename = NearFutureSolar/Parts/SolarPanels/deploying-advanced/nfs-panel-deploying-advanced-1x3-orion-1.cfg
+		SHA = 1F-F5-2F-DD-66-A5-28-84-8F-65-30-F4-E2-5B-51-29-18-16-81-0A-CC-7E-04-C9-F2-12-B4-86-C9-7E-84-8C
+	}
+	FILE
+	{
+		filename = NearFutureSolar/Parts/SolarPanels/deploying-advanced/nfs-panel-deploying-advanced-1x3-orion-2.cfg
+		SHA = 43-5C-7B-E2-63-B5-B4-53-F7-9F-28-D2-5F-E5-DE-62-66-BF-07-12-29-13-8F-9A-2E-3D-DF-9F-07-FC-62-20
+	}
+	FILE
+	{
+		filename = NearFutureSolar/Parts/SolarPanels/deploying-advanced/nfs-panel-deploying-advanced-1x4-dragon-1.cfg
+		SHA = 21-1D-64-CE-73-92-2C-42-D1-0E-41-F6-04-C4-BF-FF-B2-93-4B-CC-42-2B-F7-F4-82-0A-F7-7D-03-95-99-DC
+	}
+	FILE
+	{
+		filename = NearFutureSolar/Parts/SolarPanels/deploying-advanced/nfs-panel-deploying-advanced-1x4-dragon-2.cfg
+		SHA = AD-88-55-34-65-4D-33-2F-38-40-93-43-D0-07-4A-4F-EE-18-BC-CA-C4-C0-66-2B-20-E3-11-1D-72-90-8D-15
+	}
+	FILE
+	{
+		filename = NearFutureSolar/Parts/SolarPanels/deploying-advanced/nfs-panel-deploying-advanced-1x5-dawn-1.cfg
+		SHA = 31-80-05-E5-0C-1D-7C-54-E1-B6-18-F2-7F-D0-46-52-15-93-1A-98-A9-30-39-8E-97-94-BF-F8-C9-BE-BC-79
+	}
+	FILE
+	{
+		filename = NearFutureSolar/Parts/SolarPanels/deploying-advanced/nfs-panel-deploying-advanced-1x5-goes-1.cfg
+		SHA = 8C-67-3F-1B-85-64-71-58-13-3F-2F-B5-84-7B-2F-41-8B-CF-95-13-5E-42-52-0B-60-FC-C8-59-37-61-04-EB
+	}
+	FILE
+	{
+		filename = NearFutureSolar/Parts/SolarPanels/deploying-advanced/nfs-panel-deploying-advanced-2x20-hub-1.cfg
+		SHA = BC-C4-BC-AC-07-2E-9A-E5-C1-1F-94-10-2D-73-69-F1-44-D3-D1-3F-CF-D8-D4-25-29-C7-9C-07-77-6D-9A-27
+	}
+	FILE
+	{
+		filename = NearFutureSolar/Parts/SolarPanels/deploying-advanced/nfs-panel-deploying-advanced-2x6x6-lab-1.cfg
+		SHA = 9A-40-C8-EC-0C-B2-8B-86-28-D9-1C-FC-CB-98-B8-76-63-72-8F-8B-E0-81-78-60-B9-1F-DA-9F-E0-97-22-5C
+	}
+	FILE
+	{
+		filename = NearFutureSolar/Parts/SolarPanels/deploying-advanced/nfs-panel-deploying-advanced-3x1-hayabusa-1.cfg
+		SHA = 40-B6-7C-C3-3B-37-4D-32-12-7E-39-49-36-59-57-AB-75-DC-51-5F-76-54-AF-94-43-5C-07-FC-E9-56-B3-29
+	}
+	FILE
+	{
+		filename = NearFutureSolar/Parts/SolarPanels/deploying-advanced/nfs-panel-deploying-advanced-3x1-tdrss-1.cfg
+		SHA = 4C-E1-92-B9-DD-E6-9D-55-52-11-F0-19-2B-F7-15-25-01-AA-33-36-45-36-8C-BB-BC-6C-AE-3B-38-A5-8D-9F
+	}
+	FILE
+	{
+		filename = NearFutureSolar/Parts/SolarPanels/deploying-advanced/nfs-panel-deploying-advanced-3x1-wv3-1.cfg
+		SHA = 45-43-3F-C9-9F-B0-72-D1-36-7D-5D-BA-E9-B9-7B-A6-40-42-12-33-0C-09-8E-F8-59-E9-AE-0F-E1-4B-57-A0
+	}
+	FILE
+	{
+		filename = NearFutureSolar/Parts/SolarPanels/deploying-blanket/nfs-panel-deploying-blanket-arm-1.cfg
+		SHA = 0E-1D-46-9B-B6-61-D6-EB-67-22-D9-E3-D8-71-67-29-14-67-15-E0-D7-FF-BA-0E-96-8F-09-2A-80-B6-D0-E5
+	}
+	FILE
+	{
+		filename = NearFutureSolar/Parts/SolarPanels/deploying-blanket/nfs-panel-deploying-blanket-bfs-1.cfg
+		SHA = FC-F7-A2-C7-31-71-32-EC-70-59-A1-69-9A-B8-38-E1-77-31-53-AC-9B-2A-9F-53-23-57-9D-27-CD-DE-E6-46
+	}
+	FILE
+	{
+		filename = NearFutureSolar/Parts/SolarPanels/deploying-blanket/nfs-panel-deploying-blanket-copernicus-1.cfg
+		SHA = 32-8C-F7-36-6D-D3-ED-F1-2D-DF-39-6B-3A-06-7F-C4-F0-C9-DE-52-59-05-38-B0-20-DB-38-4D-26-E4-C7-AA
+	}
+	FILE
+	{
+		filename = NearFutureSolar/Parts/SolarPanels/deploying-blanket/nfs-panel-deploying-blanket-drm-1.cfg
+		SHA = 5A-E8-ED-6D-EA-23-58-F8-66-05-A5-73-E9-BC-5E-DA-98-BE-7E-B7-14-74-FC-4B-F4-EE-E1-99-D0-0F-1B-1D
+	}
+	FILE
+	{
+		filename = NearFutureSolar/Parts/SolarPanels/deploying-blanket/nfs-panel-deploying-blanket-dsg-1.cfg
+		SHA = 58-65-F2-1E-6E-8D-27-F7-43-ED-80-BE-92-2F-E8-11-2A-73-47-E5-FF-D1-34-7B-CE-D8-F6-B7-68-1A-16-62
+	}
+	FILE
+	{
+		filename = NearFutureSolar/Parts/SolarPanels/deploying-blanket/nfs-panel-deploying-blanket-dst-1.cfg
+		SHA = 23-3D-F2-DF-4E-42-AD-2D-00-EE-87-51-5D-D3-93-A6-92-33-0D-70-7B-47-53-8A-A9-9E-F1-03-34-8F-EC-18
+	}
+	FILE
+	{
+		filename = NearFutureSolar/Parts/SolarPanels/deploying-blanket/nfs-panel-deploying-blanket-nautilus-1.cfg
+		SHA = E9-F9-E9-98-0F-39-6C-2B-74-48-66-AC-EF-97-AD-6B-2A-04-A4-D8-75-94-F7-AE-C4-2B-9E-58-E3-69-8C-D3
+	}
+	FILE
+	{
+		filename = NearFutureSolar/Parts/SolarPanels/deploying-blanket/nfs-panel-deploying-blanket-orion-1.cfg
+		SHA = DD-AB-CA-49-51-33-6E-C4-00-D3-CD-8E-1C-52-D8-CB-39-EF-FD-C4-57-F9-DA-E4-F3-2B-61-BE-5D-19-32-3F
+	}
+	FILE
+	{
+		filename = NearFutureSolar/Parts/SolarPanels/deploying-blanket/nfs-panel-deploying-blanket-starship-1.cfg
+		SHA = D1-76-AA-C9-DB-9A-A0-31-EC-D2-03-E3-55-5A-57-1A-E9-24-58-FF-BC-4B-13-5A-6A-27-C5-7E-94-B0-7A-F3
+	}
+	FILE
+	{
+		filename = NearFutureSolar/Parts/SolarPanels/deploying-concentrator/nfs-panel-deploying-concentrator-1x3x1-juice-1.cfg
+		SHA = 7A-71-09-B9-3C-BE-50-D5-99-02-3D-AF-7E-AF-B9-D5-23-90-5A-F2-51-EC-BE-17-4F-77-13-46-94-74-89-54
+	}
+	FILE
+	{
+		filename = NearFutureSolar/Parts/SolarPanels/deploying-concentrator/nfs-panel-deploying-concentrator-1x4-juno-1.cfg
+		SHA = E5-32-6B-E3-5B-10-F0-57-97-3A-BD-DB-46-C6-03-F6-6A-D2-87-AA-47-64-43-3D-C3-BC-5D-BC-30-95-17-21
+	}
+	FILE
+	{
+		filename = NearFutureSolar/Parts/SolarPanels/deploying-curved/nfs-panel-deploying-curved-25-1.cfg
+		SHA = 37-EC-95-F1-F9-FE-AC-88-96-2B-C6-4D-B5-62-6E-AC-46-07-1B-3E-55-D6-A1-BF-E7-44-63-9B-FA-C7-38-ED
+	}
+	FILE
+	{
+		filename = NearFutureSolar/Parts/SolarPanels/deploying-curved/nfs-panel-deploying-curved-375-1.cfg
+		SHA = C8-E1-37-48-95-63-33-7C-7A-06-E5-64-31-8E-F6-20-B9-24-E6-69-D7-ED-06-6E-39-65-58-33-8F-1C-2E-0E
+	}
+	FILE
+	{
+		filename = NearFutureSolar/Parts/SolarPanels/static/nfs-panel-static-truss-1.cfg
+		SHA = E4-6F-65-29-04-0C-87-F0-23-4A-40-F4-0F-AD-61-3D-CC-91-7B-5C-31-4A-8C-C4-9C-1F-DE-14-6C-98-42-32
+	}
+	FILE
+	{
+		filename = NearFutureSolar/Parts/SolarPanels/static/nfs-panel-static-truss-2.cfg
+		SHA = 98-74-61-69-77-29-10-AB-BA-E0-08-5C-41-96-6E-6C-7F-BB-09-94-36-5D-EE-3B-E1-85-51-B1-9F-3D-50-FA
+	}
+	FILE
+	{
+		filename = NearFutureSolar/Parts/SolarPanels/static/nfs-panel-static-truss-3.cfg
+		SHA = 53-57-98-08-67-7B-EE-C2-3A-DB-50-70-0B-A1-49-70-F8-A1-52-D3-11-09-33-24-6B-50-FF-6B-8E-2A-15-B7
+	}
+	FILE
+	{
+		filename = NearFutureSolar/Parts/SolarPanels/static-curved/nfs-panel-static-curved-25-1.cfg
+		SHA = BA-E6-02-FD-FA-A2-60-E5-EC-C6-24-FF-9A-83-7B-21-95-0C-B0-68-97-E8-81-7A-A2-49-88-DC-6B-AE-D1-3D
+	}
+	FILE
+	{
+		filename = NearFutureSolar/Parts/SolarPanels/static-curved/nfs-panel-static-curved-375-1.cfg
+		SHA = 3B-AA-34-06-3F-D3-A3-88-02-BD-E7-BA-98-91-B4-50-44-30-82-D1-EB-36-35-D5-13-D1-B5-A2-97-B6-A0-72
+	}
+	FILE
+	{
+		filename = NearFutureSolar/Patches/NFSolarCommunityTechTree.cfg
+		SHA = 65-63-0B-9D-EF-E0-88-12-CD-A2-10-BD-DB-B5-C7-22-CB-AA-38-C1-15-85-DA-98-62-7E-2B-FB-E9-04-9F-3A
 	}
 	FILE
 	{
