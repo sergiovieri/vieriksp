@@ -706,7 +706,7 @@ GAME
 	{
 		name = ResearchAndDevelopment
 		scene = 7, 8, 5, 6
-		sci = 2246.60986
+		sci = 2262.67798
 		Tech
 		{
 			id = start
@@ -2928,7 +2928,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.10.0
-		UT = 10654300.075286657
+		UT = 10654327.055286054
 		activeVessel = 3
 		mapViewFiltering = 31743
 		commNetUIModeTracking = Network
@@ -6681,18 +6681,18 @@ GAME
 			landedAt = 
 			displaylandedAt = 
 			splashed = False
-			met = 9791557.1596874855
+			met = 9791584.159686882
 			lct = 862742.89559917198
-			lastUT = 10654300.075286657
-			distanceTraveled = 9186055.1977459583
+			lastUT = 10654327.055286054
+			distanceTraveled = 9206846.6726626232
 			root = 0
-			lat = 0.015444918865117627
-			lon = -92.303669164395515
-			alt = 498003.38141921745
-			hgt = 498003.375
-			nrm = 0.954445601,-0.195185989,0.225690067
-			rot = -0.556374967,-0.553674042,0.363443196,-0.501797795
-			CoM = -0.00102210045,-4.96978855,0.0017991066
+			lat = 0.015657712460845491
+			lon = -91.305237659444529
+			alt = 497998.71778938523
+			hgt = 497998.719
+			nrm = 0.0022982955,-0.999995708,0.00186657906
+			rot = -0.67958051,-0.213378355,-0.196078792,-0.673938632
+			CoM = -0.00104951859,-4.96978664,0.00177526474
 			stg = 1
 			prst = False
 			ref = 3652032362
@@ -6705,18 +6705,18 @@ GAME
 			OverrideAxisControl = 0,0,0,0
 			OverrideGroupNames = ,,,
 			altDispState = ASL
-			cPch = 0.2538222
-			cHdg = -0.3670423
+			cPch = 0.5598222
+			cHdg = -1.085042
 			cMod = 0
 			ORBIT
 			{
-				SMA = 817977.50984064606
-				ECC = 5.1878134382057599E-05
-				INC = 0.020040627153735328
-				LPE = 179.47094552559935
-				LAN = 169.48654818168507
-				MNA = -2.2555578736223501
-				EPH = 10654300.075286657
+				SMA = 817977.51021488488
+				ECC = 5.1877819575197508E-05
+				INC = 0.020040603118568881
+				LPE = 179.47066383742137
+				LAN = 169.48646547458861
+				MNA = -2.2355310096780303
+				EPH = 10654327.055286054
 				REF = 6
 			}
 			PART
@@ -6745,8 +6745,8 @@ GAME
 				attN = top, 1
 				mass = 0.100000001
 				shielded = False
-				temp = 133.15937336286598
-				tempExt = 133.03141424047791
+				temp = 133.14011693723978
+				tempExt = 133.12060617879126
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0
@@ -6816,7 +6816,7 @@ GAME
 					isEnabled = True
 					actuatorModeCycle = 0
 					authorityLimiter = 100
-					stateString = Idle
+					stateString = Running
 					stagingEnabled = True
 					WheelState = Active
 					EVENTS
@@ -6943,7 +6943,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 10
+					amount = 9.7863144082467013
 					maxAmount = 10
 					flowState = True
 					isTweakable = True
@@ -6978,8 +6978,8 @@ GAME
 				attN = bottom, 0
 				mass = 0.00999999978
 				shielded = False
-				temp = 133.11153725471274
-				tempExt = 133.12522686299388
+				temp = 133.19059899650844
+				tempExt = 133.21669722032271
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -7018,7 +7018,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 200
+					amount = 195.72628816493986
 					maxAmount = 200
 					flowState = True
 					isTweakable = True
@@ -7053,8 +7053,8 @@ GAME
 				attN = bottom, 1
 				mass = 0.00999999978
 				shielded = False
-				temp = 133.14436780820893
-				tempExt = 133.27713534906351
+				temp = 133.21513608653873
+				tempExt = 133.38772501194271
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -7093,7 +7093,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 200
+					amount = 195.72628816493986
 					maxAmount = 200
 					flowState = True
 					isTweakable = True
@@ -7127,8 +7127,8 @@ GAME
 				attN = bottom, 2
 				mass = 0.649999976
 				shielded = False
-				temp = 133.14605742352839
-				tempExt = 133.44089230720493
+				temp = 133.23243585271211
+				tempExt = 133.57426770944946
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -7243,8 +7243,8 @@ GAME
 				srfN = srfAttach, 1,node_collider
 				mass = 9.99999975E-05
 				shielded = False
-				temp = 133.10785718983465
-				tempExt = 133.0698717157741
+				temp = 133.18322144988485
+				tempExt = 133.1558699407727
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -8031,7 +8031,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 5
+					amount = 4.8931572041233506
 					maxAmount = 5
 					flowState = True
 					isTweakable = True
@@ -8067,8 +8067,8 @@ GAME
 				srfN = srfAttach, 0,collider_base
 				mass = 0.0175000001
 				shielded = False
-				temp = 133.00564055381332
-				tempExt = 133.5068165297933
+				temp = 133.08230367897448
+				tempExt = 133.21009217503217
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -8110,7 +8110,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 862742.95559917204
-					currentRotation = (0.409006625, 0.408554375, 0.576957941, -0.576989174)
+					currentRotation = (0.482286185, 0.481840223, 0.517268002, -0.517362535)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -8170,8 +8170,8 @@ GAME
 				srfN = srfAttach, 0,collider_base
 				mass = 0.0175000001
 				shielded = False
-				temp = 133.22319509108738
-				tempExt = 133.92019373621193
+				temp = 133.31802695343248
+				tempExt = 133.76978344373222
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -8213,7 +8213,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 862742.95559917204
-					currentRotation = (-0.654632509, -0.654291034, -0.267760456, 0.267701298)
+					currentRotation = (-0.315862477, -0.315644622, -0.63282758, 0.632557213)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -8273,8 +8273,8 @@ GAME
 				srfN = srfAttach, 0,collider_base
 				mass = 0.0175000001
 				shielded = False
-				temp = 132.42739366513484
-				tempExt = 132.26247254023599
+				temp = 132.48160766056202
+				tempExt = 133.01884190966342
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -8316,7 +8316,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 862742.95559917204
-					currentRotation = (0.577109993, 0.576816678, 0.408720791, -0.408869058)
+					currentRotation = (0.517453074, 0.517137587, 0.482031047, -0.482138097)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -8376,8 +8376,8 @@ GAME
 				srfN = srfAttach, 0,collider_base
 				mass = 0.0175000001
 				shielded = False
-				temp = 132.88804659686559
-				tempExt = 133.23485211545764
+				temp = 132.94858271358714
+				tempExt = 133.17198303738164
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -8419,7 +8419,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 862742.95559917204
-					currentRotation = (-0.267826796, -0.267713457, -0.654491544, 0.654399812)
+					currentRotation = (-0.632763982, -0.632615507, -0.315757692, 0.315760106)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -8478,8 +8478,8 @@ GAME
 				attN = bottom, 10
 				mass = 0.100000001
 				shielded = False
-				temp = 132.96788316241833
-				tempExt = 132.95479723512202
+				temp = 132.97380043535387
+				tempExt = 132.97028524192248
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -8521,7 +8521,7 @@ GAME
 					isEnabled = True
 					actuatorModeCycle = 0
 					authorityLimiter = 100
-					stateString = Idle
+					stateString = Running
 					stagingEnabled = True
 					WheelState = Active
 					EVENTS
@@ -8581,8 +8581,8 @@ GAME
 				attN = bottom, 11
 				mass = 0.200000003
 				shielded = False
-				temp = 132.96428844976873
-				tempExt = 132.97696914821907
+				temp = 132.98478348437735
+				tempExt = 133.01724472875927
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -8712,8 +8712,8 @@ GAME
 				attN = bottom, 12
 				mass = 3.5
 				shielded = False
-				temp = 132.97089468451108
-				tempExt = 133.00336007416405
+				temp = 132.99813918938494
+				tempExt = 133.06150968144641
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -8776,7 +8776,7 @@ GAME
 					name = ModuleScienceLab
 					isEnabled = True
 					dataStored = 713.321106
-					storedScience = 16.0536766
+					storedScience = 0.0745813549
 					stagingEnabled = True
 					EVENTS
 					{
@@ -8814,7 +8814,7 @@ GAME
 					EfficiencyBonus = 1
 					IsActivated = True
 					stagingEnabled = True
-					lastUpdateTime = 10654300.075286657
+					lastUpdateTime = 10654327.055286054
 					EVENTS
 					{
 					}
@@ -8972,8 +8972,8 @@ GAME
 				attN = bottom, 13
 				mass = 0.5
 				shielded = False
-				temp = 133.00891183315741
-				tempExt = 133.20464124618047
+				temp = 133.17300640124057
+				tempExt = 133.3698313373863
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -9241,8 +9241,8 @@ GAME
 				attN = bottom, 14
 				mass = 0.0900000036
 				shielded = False
-				temp = 133.41031156508231
-				tempExt = 133.80881105783828
+				temp = 134.18850293868476
+				tempExt = 134.32419236738991
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -9401,8 +9401,8 @@ GAME
 				attN = bottom, 15
 				mass = 0.150000006
 				shielded = False
-				temp = 133.60156798564805
-				tempExt = 134.45961616763708
+				temp = 134.50919049948416
+				tempExt = 135.04822376665749
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -9758,8 +9758,8 @@ GAME
 				attN = bottom, 16
 				mass = 2
 				shielded = False
-				temp = 134.03331902043064
-				tempExt = 134.86649097739007
+				temp = 134.90781760643338
+				tempExt = 135.31186694709154
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -9860,8 +9860,8 @@ GAME
 				attN = bottom, -1
 				mass = 1.75
 				shielded = False
-				temp = 139.91905470991031
-				tempExt = 137.77344961087329
+				temp = 137.67091555878679
+				tempExt = 136.67213019768727
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -10059,7 +10059,7 @@ GAME
 				{
 					name = FXModuleAnimateThrottle
 					isEnabled = True
-					animState = 0.09501753
+					animState = 0.0483947992
 					stagingEnabled = True
 					EVENTS
 					{
@@ -10075,7 +10075,7 @@ GAME
 				{
 					name = FXModuleAnimateThrottle
 					isEnabled = True
-					animState = 0.09501753
+					animState = 0.0483947992
 					stagingEnabled = True
 					EVENTS
 					{
@@ -10180,8 +10180,8 @@ GAME
 				srfN = srfAttach, 11,ColliderMain
 				mass = 0.0337500013
 				shielded = False
-				temp = 132.97170536031101
-				tempExt = 133.027515191627
+				temp = 132.97660838680085
+				tempExt = 133.01537367151641
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -10287,8 +10287,8 @@ GAME
 				srfN = srfAttach, 17,RadialTankCapsule
 				mass = 0.0199999996
 				shielded = False
-				temp = 132.97106747940776
-				tempExt = 132.98214906967561
+				temp = 132.97583860218441
+				tempExt = 132.98606015410212
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -10327,7 +10327,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 400
+					amount = 391.45257632987972
 					maxAmount = 400
 					flowState = True
 					isTweakable = True
@@ -10367,8 +10367,8 @@ GAME
 				srfN = srfAttach, 11,ColliderMain
 				mass = 0.0337500013
 				shielded = False
-				temp = 132.97224877210056
-				tempExt = 132.99236345469379
+				temp = 132.97653215060535
+				tempExt = 133.01531909098438
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -10474,8 +10474,8 @@ GAME
 				srfN = srfAttach, 19,RadialTankCapsule
 				mass = 0.0199999996
 				shielded = False
-				temp = 132.97174027136271
-				tempExt = 132.97522614157359
+				temp = 132.97560270991767
+				tempExt = 132.9858969484423
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -10514,7 +10514,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 400
+					amount = 391.45257632987972
 					maxAmount = 400
 					flowState = True
 					isTweakable = True
@@ -10554,8 +10554,8 @@ GAME
 				srfN = srfAttach, 11,ColliderMain
 				mass = 0.0337500013
 				shielded = False
-				temp = 132.97122484185752
-				tempExt = 132.98098753692688
+				temp = 132.97623676799822
+				tempExt = 133.04939868713689
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -10661,8 +10661,8 @@ GAME
 				srfN = srfAttach, 21,RadialTankCapsule
 				mass = 0.0199999996
 				shielded = False
-				temp = 132.96999685031287
-				tempExt = 132.96481004250518
+				temp = 132.97657029271872
+				tempExt = 133.00701819578458
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -10701,7 +10701,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 400
+					amount = 391.45257632987972
 					maxAmount = 400
 					flowState = True
 					isTweakable = True
@@ -10741,8 +10741,8 @@ GAME
 				srfN = srfAttach, 11,ColliderMain
 				mass = 0.0337500013
 				shielded = False
-				temp = 132.97122484186707
-				tempExt = 132.98098753693048
+				temp = 132.97575764272193
+				tempExt = 133.01501751384919
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -10848,8 +10848,8 @@ GAME
 				srfN = srfAttach, 23,RadialTankCapsule
 				mass = 0.0199999996
 				shielded = False
-				temp = 132.96999685032262
-				tempExt = 132.96481004251123
+				temp = 132.97479351211024
+				tempExt = 132.98538761268409
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -10888,7 +10888,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 400
+					amount = 391.45257632987972
 					maxAmount = 400
 					flowState = True
 					isTweakable = True
@@ -10928,8 +10928,8 @@ GAME
 				srfN = srfAttach, 11,ColliderMain
 				mass = 0.0337500013
 				shielded = False
-				temp = 132.97122484549217
-				tempExt = 132.98098753832269
+				temp = 132.97633511118144
+				tempExt = 133.05730177022886
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -11035,8 +11035,8 @@ GAME
 				srfN = srfAttach, 25,RadialTankCapsule
 				mass = 0.0199999996
 				shielded = False
-				temp = 132.96999685407704
-				tempExt = 132.96481004486566
+				temp = 132.97709003892803
+				tempExt = 133.01199942436796
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -11075,7 +11075,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 400
+					amount = 391.45257632987972
 					maxAmount = 400
 					flowState = True
 					isTweakable = True
@@ -11115,8 +11115,8 @@ GAME
 				srfN = srfAttach, 11,ColliderMain
 				mass = 0.0337500013
 				shielded = False
-				temp = 132.97122484226981
-				tempExt = 132.98098753708518
+				temp = 132.97575764298432
+				tempExt = 133.01501751395094
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -11222,8 +11222,8 @@ GAME
 				srfN = srfAttach, 27,RadialTankCapsule
 				mass = 0.0199999996
 				shielded = False
-				temp = 132.96999685073962
-				tempExt = 132.96481004277268
+				temp = 132.97479351238272
+				tempExt = 132.98538761285477
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -11262,7 +11262,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 400
+					amount = 391.45257632987972
 					maxAmount = 400
 					flowState = True
 					isTweakable = True
@@ -11302,8 +11302,8 @@ GAME
 				srfN = srfAttach, 11,ColliderMain
 				mass = 0.0337500013
 				shielded = False
-				temp = 132.9712248418578
-				tempExt = 132.98098753692699
+				temp = 132.97575764271562
+				tempExt = 133.01501751384677
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -11409,8 +11409,8 @@ GAME
 				srfN = srfAttach, 29,RadialTankCapsule
 				mass = 0.0199999996
 				shielded = False
-				temp = 132.96999685031321
-				tempExt = 132.96481004250535
+				temp = 132.97479351210373
+				tempExt = 132.98538761268
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -11449,7 +11449,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 400
+					amount = 391.45257632987972
 					maxAmount = 400
 					flowState = True
 					isTweakable = True
@@ -11489,8 +11489,8 @@ GAME
 				srfN = srfAttach, 11,ColliderMain
 				mass = 0.0337500013
 				shielded = False
-				temp = 132.97236688432443
-				tempExt = 132.98352656831034
+				temp = 132.97655635580327
+				tempExt = 133.01532864108606
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -11596,8 +11596,8 @@ GAME
 				srfN = srfAttach, 31,RadialTankCapsule
 				mass = 0.0199999996
 				shielded = False
-				temp = 132.97179349017645
-				tempExt = 132.96903330701932
+				temp = 132.97562832812454
+				tempExt = 132.98591329754424
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -11636,7 +11636,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 400
+					amount = 391.45257632987972
 					maxAmount = 400
 					flowState = True
 					isTweakable = True
@@ -11672,8 +11672,8 @@ GAME
 				srfN = srfAttach, 11,ColliderMain
 				mass = 0.0149999997
 				shielded = False
-				temp = 132.9679376120524
-				tempExt = 132.98683052515386
+				temp = 132.99122309360644
+				tempExt = 133.0271183550289
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -11805,8 +11805,8 @@ GAME
 				srfN = srfAttach, 11,ColliderMain
 				mass = 0.0149999997
 				shielded = False
-				temp = 132.96782614579288
-				tempExt = 132.98425492030128
+				temp = 132.99682999200459
+				tempExt = 133.1066552524795
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -11926,8 +11926,8 @@ GAME
 				srfN = srfAttach, 11,ColliderMain
 				mass = 0.0149999997
 				shielded = False
-				temp = 132.967828044919
-				tempExt = 132.98449765259906
+				temp = 132.99128465997953
+				tempExt = 133.03503907085377
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -12047,8 +12047,8 @@ GAME
 				srfN = srfAttach, 11,ColliderMain
 				mass = 0.0149999997
 				shielded = False
-				temp = 132.9808210476636
-				tempExt = 133.03253416549117
+				temp = 132.99174693627126
+				tempExt = 133.02731006273669
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -12168,8 +12168,8 @@ GAME
 				srfN = srfAttach, 11,ColliderMain
 				mass = 0.0175000001
 				shielded = False
-				temp = 133.12688563079911
-				tempExt = 133.67930160650405
+				temp = 133.13516025144224
+				tempExt = 133.11676452829781
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -12211,7 +12211,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 862742.95559917204
-					currentRotation = (0.347104758, 0.346910566, 0.616274118, -0.615936399)
+					currentRotation = (0.531755567, 0.531460941, 0.466379344, -0.466128349)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -12271,8 +12271,8 @@ GAME
 				srfN = srfAttach, 11,ColliderMain
 				mass = 0.0175000001
 				shielded = False
-				temp = 133.21417435781049
-				tempExt = 133.91589409403383
+				temp = 133.21572160144001
+				tempExt = 133.28857435354038
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -12314,7 +12314,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 862742.95559917204
-					currentRotation = (-0.645435095, -0.645316064, -0.289007068, 0.288887113)
+					currentRotation = (-0.316779792, -0.316762805, -0.632267892, 0.632099152)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -12374,8 +12374,8 @@ GAME
 				srfN = srfAttach, 11,ColliderMain
 				mass = 0.0175000001
 				shielded = False
-				temp = 132.83381277426295
-				tempExt = 132.79364192125917
+				temp = 132.92515199839926
+				tempExt = 133.65225049758968
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -12417,7 +12417,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 862742.95559917204
-					currentRotation = (0.616044521, 0.616116822, 0.347060144, -0.347042531)
+					currentRotation = (0.466186523, 0.46625942, 0.53163141, -0.531639338)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -12477,8 +12477,8 @@ GAME
 				srfN = srfAttach, 11,ColliderMain
 				mass = 0.0175000001
 				shielded = False
-				temp = 132.9664228689503
-				tempExt = 133.17907761816969
+				temp = 132.99918682576555
+				tempExt = 133.40920370951446
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -12520,7 +12520,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 862742.95559917204
-					currentRotation = (-0.289027333, -0.288997322, -0.64549619, 0.645196438)
+					currentRotation = (-0.632296562, -0.632083952, -0.316865802, 0.316649795)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -12580,8 +12580,8 @@ GAME
 				srfN = srfAttach, 11,ColliderMain
 				mass = 0.0175000001
 				shielded = False
-				temp = 133.03770107660964
-				tempExt = 133.41625505596278
+				temp = 133.05971086828686
+				tempExt = 133.05046134644112
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -12623,7 +12623,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 862742.95559917204
-					currentRotation = (0.347105026, 0.346923202, 0.616256118, -0.615947127)
+					currentRotation = (0.531745076, 0.531472683, 0.466367662, -0.466138542)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -12683,8 +12683,8 @@ GAME
 				srfN = srfAttach, 11,ColliderMain
 				mass = 0.0175000001
 				shielded = False
-				temp = 133.1168235630002
-				tempExt = 133.64193981118467
+				temp = 133.15079644592939
+				tempExt = 133.58529384906998
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -12726,7 +12726,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 862742.95559917204
-					currentRotation = (-0.645469368, -0.645289898, -0.289010495, 0.288865387)
+					currentRotation = (-0.316798151, -0.316748798, -0.632296503, 0.632068336)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -12786,8 +12786,8 @@ GAME
 				srfN = srfAttach, 11,ColliderMain
 				mass = 0.0175000001
 				shielded = False
-				temp = 132.83374667311213
-				tempExt = 132.79499537029204
+				temp = 132.88906413478531
+				tempExt = 133.18792066023596
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -12829,7 +12829,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 862742.95559917204
-					currentRotation = (0.616043329, 0.61611551, 0.347055405, -0.347051829)
+					currentRotation = (0.466192722, 0.466260791, 0.531621516, -0.531642497)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -12889,8 +12889,8 @@ GAME
 				srfN = srfAttach, 11,ColliderMain
 				mass = 0.0175000001
 				shielded = False
-				temp = 132.89816614444976
-				tempExt = 132.98116566541893
+				temp = 132.94482256408006
+				tempExt = 133.35178087784351
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -12932,7 +12932,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 862742.95559917204
-					currentRotation = (-0.289024532, -0.289003372, -0.645498276, 0.645192981)
+					currentRotation = (-0.632296145, -0.632084131, -0.316868961, 0.316646934)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -12989,8 +12989,8 @@ GAME
 				srfN = srfAttach, 10,node_collider
 				mass = 0.0500000007
 				shielded = False
-				temp = 132.95497223397746
-				tempExt = 132.9582289572588
+				temp = 132.96947437613704
+				tempExt = 132.98821283674485
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -13118,8 +13118,8 @@ GAME
 				srfN = srfAttach, 10,node_collider
 				mass = 0.00499999989
 				shielded = False
-				temp = 132.9594214029253
-				tempExt = 132.96620404019467
+				temp = 132.97385286300528
+				tempExt = 132.99919595282483
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -13229,8 +13229,8 @@ GAME
 				srfN = srfAttach, 10,node_collider
 				mass = 0.00499999989
 				shielded = False
-				temp = 132.95800704647442
-				tempExt = 132.96035806166122
+				temp = 132.97774852423515
+				tempExt = 132.99262707599613
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -13322,7 +13322,7 @@ GAME
 				Gear = False, 0
 				Light = True, 862882.793235972
 				RCS = False, 0
-				SAS = False, 10651853.0800623
+				SAS = True, 10654305.5552865
 				Brakes = False, 0
 				Abort = False, 0
 				Custom01 = False, 0
@@ -13349,9 +13349,9 @@ GAME
 			}
 			CTRLSTATE
 			{
-				pitch = 0
-				yaw = 0
-				roll = 0
+				pitch = 0.041694019
+				yaw = -0.0532836355
+				roll = 0.0011429505
 				trimPitch = 0
 				trimYaw = 0
 				trimRoll = 0
