@@ -2,7 +2,7 @@ ship = Drone
 version = 1.10.0
 description = 
 type = VAB
-size = 2.78371525,4.71175766,2.78371549
+size = 2.78371525,4.71176147,2.78371525
 steamPublishedFileId = 0
 persistentId = 3064703264
 rot = 0,0,0,0
@@ -14,12 +14,115 @@ OverrideAxisControl = 0,0,0,0
 OverrideGroupNames = ,,,
 PART
 {
+	part = dockingPortLarge_4293458356
+	partName = Part
+	persistentId = 4054422593
+	pos = 0.186776429,22.5149307,2.02803683
+	attPos = 0,0,0
+	attPos0 = -0.982350588,18.7598648,3.47708797
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	attN = top,Null_0_0|0.289999992|0_0|1|0_0|0.289999992|0_0|1|0
+	attN = bottom,probeStackLarge_4293459320_0|0|0_0|-1|0_0|0|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDockingNode
+		isEnabled = True
+		acquireForceTweak = 100
+		crossfeed = True
+		stagingEnabled = False
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			MakeReferenceToggle
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			EnableXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DisableXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
 	part = probeStackLarge_4293459320
 	partName = Part
 	persistentId = 461131735
-	pos = -0.202096835,18.3306789,0.987043619
+	pos = 0.186776429,22.3249302,2.02803683
 	attPos = 0,0,0
-	attPos0 = -0.206196904,18.3179722,0.873983264
+	attPos0 = 0,-0.190000534,0
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
@@ -38,7 +141,6 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	link = asasmodule1-2_4293456122
 	link = linearRcs_4293438080
 	link = linearRcs_4293434516
 	link = linearRcs_4293434436
@@ -47,6 +149,7 @@ PART
 	link = linearRcs_4293434196
 	link = linearRcs_4293434116
 	link = linearRcs_4293434036
+	link = dockingPortLarge_4293458356
 	attN = bottom,asasmodule1-2_4293456122_0|-0.189999998|0_0|-1|0_0|-0.189999998|0_0|-1|0
 	attN = top,dockingPortLarge_4293458356_0|0.189999998|0_0|1|0_0|0.189999998|0_0|1|0
 	EVENTS
@@ -937,12 +1040,12 @@ PART
 }
 PART
 {
-	part = dockingPortLarge_4293458356
+	part = asasmodule1-2_4293456122
 	partName = Part
-	persistentId = 4054422593
-	pos = -0.202096835,18.5206795,0.987043619
+	persistentId = 738540289
+	pos = 0.186776429,21.8849297,2.02803683
 	attPos = 0,0,0
-	attPos0 = -0.202096835,18.5206795,0.987043619
+	attPos0 = 0,-0.440000534,0
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
@@ -961,9 +1064,853 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
+	link = RCSBlock.v2_4293441412
+	link = RCSBlock.v2_4293436138
+	link = RCSBlock.v2_4293436048
+	link = RCSBlock.v2_4293435958
 	link = probeStackLarge_4293459320
+	attN = top,probeStackLarge_4293459320_0|0.25|0_0|1|0_0|0.25|0_0|1|0
+	attN = bottom,asasmodule1-2_4293455888_0|-0.25|0_0|-1|0_0|-0.25|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleReactionWheel
+		isEnabled = True
+		actuatorModeCycle = 0
+		authorityLimiter = 100
+		stateString = Active
+		stagingEnabled = True
+		WheelState = Active
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			CycleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			Activate
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			Deactivate
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			Toggle
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = asasmodule1-2_4293455888
+	partName = Part
+	persistentId = 1622614247
+	pos = 0.186776429,21.3849297,2.02803683
+	attPos = 0,0,0
+	attPos0 = 0,-0.5,0
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = LgRadialSolarPanel_4293447642
+	link = LgRadialSolarPanel_4293447068
+	link = LgRadialSolarPanel_4293447012
+	link = LgRadialSolarPanel_4293446956
+	link = mumech.MJ2.AR202_4293445198
+	link = asasmodule1-2_4293456122
+	attN = top,asasmodule1-2_4293456122_0|0.25|0_0|1|0_0|0.25|0_0|1|0
+	attN = bottom,battery-25_4293451646_0|-0.25|0_0|-1|0_0|-0.25|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleReactionWheel
+		isEnabled = True
+		actuatorModeCycle = 0
+		authorityLimiter = 100
+		stateString = Active
+		stagingEnabled = True
+		WheelState = Active
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			CycleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			Activate
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			Deactivate
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			Toggle
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = battery-25_4293451646
+	partName = Part
+	persistentId = 305751520
+	pos = 0.186776429,20.7697182,2.02803683
+	attPos = 0,0,0
+	attPos0 = 0,-0.61521244,0
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = asasmodule1-2_4293455888
+	attN = top,asasmodule1-2_4293455888_0|0.365212202|0_0|1|0_0|0.365212202|0_0|1|0
+	attN = bottom,RCSTank1-2_4293450862_0|-0.386544108|0_0|-1|0_0|-0.386544108|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 12000
+		maxAmount = 12000
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = RCSTank1-2_4293450862
+	partName = Part
+	persistentId = 1273784996
+	pos = 0.186776429,19.883173,2.02803683
+	attPos = 0,0,0
+	attPos0 = 0,-0.886544228,0
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = LgRadialSolarPanel_4293448048
+	link = LgRadialSolarPanel_4293446714
+	link = LgRadialSolarPanel_4293446658
+	link = LgRadialSolarPanel_4293446602
+	link = LgRadialSolarPanel_4293449144
+	link = LgRadialSolarPanel_4293446192
+	link = LgRadialSolarPanel_4293446136
+	link = LgRadialSolarPanel_4293446080
+	link = battery-25_4293451646
+	attN = top,battery-25_4293451646_0|0.5|0_0|1|0_0|0.5|0_0|1|0
+	attN = bottom,RCSTank1-2_4293450424_0|-0.5|0_0|-1|0_0|-0.5|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModulePartVariants
+		isEnabled = True
+		useVariantMass = True
+		stagingEnabled = True
+		selectedVariant = YellowAndWhite
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = MonoPropellant
+		amount = 750
+		maxAmount = 750
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = RCSTank1-2_4293450424
+	partName = Part
+	persistentId = 2146305087
+	pos = 0.186776429,18.883173,2.02803683
+	attPos = 0,0,0
+	attPos0 = 0,-1,0
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = RCSBlock.v2_4293431438
+	link = RCSBlock.v2_4293431044
+	link = RCSBlock.v2_4293430954
+	link = RCSBlock.v2_4293430864
+	link = RCSTank1-2_4293450862
+	attN = top,RCSTank1-2_4293450862_0|0.5|0_0|1|0_0|0.5|0_0|1|0
+	attN = bottom,dockingPortLarge_4293431670_0|-0.5|0_0|-1|0_0|-0.5|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModulePartVariants
+		isEnabled = True
+		useVariantMass = True
+		stagingEnabled = True
+		selectedVariant = YellowAndWhite
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = MonoPropellant
+		amount = 750
+		maxAmount = 750
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = RCSBlock.v2_4293431438
+	partName = Part
+	persistentId = 324329995
+	pos = -1.01187861,18.6052055,2.02803683
+	attPos = 0,0,0
+	attPos0 = -1.19865501,-0.277966499,5.96046448E-08
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = RCSBlock.v2_4293431044
+	sym = RCSBlock.v2_4293430954
+	sym = RCSBlock.v2_4293430864
+	srfN = srfAttach,RCSTank1-2_4293450424,collider,-0.00875000004|0|0,0.125|0|0,-0.00875000004|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCSFX
+		isEnabled = True
+		rcsEnabled = True
+		thrustPercentage = 100
+		currentShowToggles = False
+		enableYaw = True
+		enablePitch = True
+		enableRoll = True
+		enableX = True
+		enableY = True
+		enableZ = True
+		useThrottle = False
+		fullThrust = False
+		stagingEnabled = False
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FXModuleAnimateRCS
+		isEnabled = True
+		stagingEnabled = True
+		animStates = 0,0,0,0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = RCSBlock.v2_4293431044
+	partName = Part
+	persistentId = 2901591703
+	pos = 0.186776415,18.6052055,3.22669172
+	attPos = 0,0,0
+	attPos0 = -1.49011612E-08,-0.277966499,1.19865489
+	rot = 0,0.707106829,0,0.707106829
+	attRot = 0,0,0,1
+	attRot0 = 0,0.707106829,0,0.707106829
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = RCSBlock.v2_4293430954
+	sym = RCSBlock.v2_4293430864
+	sym = RCSBlock.v2_4293431438
+	srfN = srfAttach,RCSTank1-2_4293450424,collider,-0.00875000004|0|0,0.125|0|0,-0.00875000004|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCSFX
+		isEnabled = True
+		rcsEnabled = True
+		thrustPercentage = 100
+		currentShowToggles = False
+		enableYaw = True
+		enablePitch = True
+		enableRoll = True
+		enableX = True
+		enableY = True
+		enableZ = True
+		useThrottle = False
+		fullThrust = False
+		stagingEnabled = False
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FXModuleAnimateRCS
+		isEnabled = True
+		stagingEnabled = True
+		animStates = 0,0,0,0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = RCSBlock.v2_4293430954
+	partName = Part
+	persistentId = 2637475121
+	pos = 1.38543141,18.6052055,2.02803659
+	attPos = 0,0,0
+	attPos0 = 1.19865501,-0.277966499,-1.78813934E-07
+	rot = 0,1,0,-4.37113883E-08
+	attRot = 0,0,0,1
+	attRot0 = 0,1,0,-4.37113883E-08
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = RCSBlock.v2_4293430864
+	sym = RCSBlock.v2_4293431438
+	sym = RCSBlock.v2_4293431044
+	srfN = srfAttach,RCSTank1-2_4293450424,collider,-0.00875000004|0|0,0.125|0|0,-0.00875000004|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCSFX
+		isEnabled = True
+		rcsEnabled = True
+		thrustPercentage = 100
+		currentShowToggles = False
+		enableYaw = True
+		enablePitch = True
+		enableRoll = True
+		enableX = True
+		enableY = True
+		enableZ = True
+		useThrottle = False
+		fullThrust = False
+		stagingEnabled = False
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FXModuleAnimateRCS
+		isEnabled = True
+		stagingEnabled = True
+		animStates = 0,0,0,0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = RCSBlock.v2_4293430864
+	partName = Part
+	persistentId = 2084012423
+	pos = 0.186776295,18.6052055,0.829381943
+	attPos = 0,0,0
+	attPos0 = -1.34110451E-07,-0.277966499,-1.19865489
+	rot = 0,0.707106829,0,-0.707106829
+	attRot = 0,0,0,1
+	attRot0 = 0,0.707106829,0,-0.707106829
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = RCSBlock.v2_4293431438
+	sym = RCSBlock.v2_4293431044
+	sym = RCSBlock.v2_4293430954
+	srfN = srfAttach,RCSTank1-2_4293450424,collider,-0.00875000004|0|0,0.125|0|0,-0.00875000004|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCSFX
+		isEnabled = True
+		rcsEnabled = True
+		thrustPercentage = 100
+		currentShowToggles = False
+		enableYaw = True
+		enablePitch = True
+		enableRoll = True
+		enableX = True
+		enableY = True
+		enableZ = True
+		useThrottle = False
+		fullThrust = False
+		stagingEnabled = False
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FXModuleAnimateRCS
+		isEnabled = True
+		stagingEnabled = True
+		animStates = 0,0,0,0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = dockingPortLarge_4293431670
+	partName = Part
+	persistentId = 2045367522
+	pos = 0.186776429,18.383173,2.02803683
+	attPos = 0,0,0
+	attPos0 = 0.186776429,18.383173,2.02803683
+	rot = 1,0,0,0
+	attRot = 0.99999994,0,0,0
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = RCSTank1-2_4293450424
 	attN = top,Null_0_0|0.289999992|0_0|1|0_0|0.289999992|0_0|1|0
-	attN = bottom,probeStackLarge_4293459320_0|0|0_0|-1|0_0|0|0_0|-1|0
+	attN = bottom,RCSTank1-2_4293450424_0|0|0_0|-1|0_0|0|0_0|-1|0
 	EVENTS
 	{
 	}
@@ -1041,822 +1988,10 @@ PART
 }
 PART
 {
-	part = asasmodule1-2_4293456122
-	partName = Part
-	persistentId = 738540289
-	pos = -0.202096835,17.8906784,0.987043619
-	attPos = 0,0,0
-	attPos0 = 0,-0.440000534,0
-	rot = 0,0,0,1
-	attRot = 0,0,0,1
-	attRot0 = 0,0,0,1
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	link = asasmodule1-2_4293455888
-	link = RCSBlock.v2_4293441412
-	link = RCSBlock.v2_4293436138
-	link = RCSBlock.v2_4293436048
-	link = RCSBlock.v2_4293435958
-	attN = top,probeStackLarge_4293459320_0|0.25|0_0|1|0_0|0.25|0_0|1|0
-	attN = bottom,asasmodule1-2_4293455888_0|-0.25|0_0|-1|0_0|-0.25|0_0|-1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleReactionWheel
-		isEnabled = True
-		actuatorModeCycle = 0
-		authorityLimiter = 100
-		stateString = Active
-		stagingEnabled = True
-		WheelState = Active
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			CycleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			Activate
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			Deactivate
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			Toggle
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = asasmodule1-2_4293455888
-	partName = Part
-	persistentId = 1622614247
-	pos = -0.202096835,17.3906784,0.987043619
-	attPos = 0,0,0
-	attPos0 = 0,-0.5,0
-	rot = 0,0,0,1
-	attRot = 0,0,0,1
-	attRot0 = 0,0,0,1
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	link = battery-25_4293451646
-	link = LgRadialSolarPanel_4293447642
-	link = LgRadialSolarPanel_4293447068
-	link = LgRadialSolarPanel_4293447012
-	link = LgRadialSolarPanel_4293446956
-	link = mumech.MJ2.AR202_4293445198
-	attN = top,asasmodule1-2_4293456122_0|0.25|0_0|1|0_0|0.25|0_0|1|0
-	attN = bottom,battery-25_4293451646_0|-0.25|0_0|-1|0_0|-0.25|0_0|-1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleReactionWheel
-		isEnabled = True
-		actuatorModeCycle = 0
-		authorityLimiter = 100
-		stateString = Active
-		stagingEnabled = True
-		WheelState = Active
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			CycleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			Activate
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			Deactivate
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			Toggle
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = battery-25_4293451646
-	partName = Part
-	persistentId = 305751520
-	pos = -0.202096835,16.7754669,0.987043619
-	attPos = 0,0,0
-	attPos0 = 0,-0.61521244,0
-	rot = 0,0,0,1
-	attRot = 0,0,0,1
-	attRot0 = 0,0,0,1
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	link = RCSTank1-2_4293450862
-	attN = top,asasmodule1-2_4293455888_0|0.365212202|0_0|1|0_0|0.365212202|0_0|1|0
-	attN = bottom,RCSTank1-2_4293450862_0|-0.386544108|0_0|-1|0_0|-0.386544108|0_0|-1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	RESOURCE
-	{
-		name = ElectricCharge
-		amount = 12000
-		maxAmount = 12000
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-}
-PART
-{
-	part = RCSTank1-2_4293450862
-	partName = Part
-	persistentId = 1273784996
-	pos = -0.202096835,15.8889217,0.987043619
-	attPos = 0,0,0
-	attPos0 = 0,-0.886544228,0
-	rot = 0,0,0,1
-	attRot = 0,0,0,1
-	attRot0 = 0,0,0,1
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	link = RCSTank1-2_4293450424
-	link = LgRadialSolarPanel_4293448048
-	link = LgRadialSolarPanel_4293446714
-	link = LgRadialSolarPanel_4293446658
-	link = LgRadialSolarPanel_4293446602
-	link = LgRadialSolarPanel_4293449144
-	link = LgRadialSolarPanel_4293446192
-	link = LgRadialSolarPanel_4293446136
-	link = LgRadialSolarPanel_4293446080
-	attN = top,battery-25_4293451646_0|0.5|0_0|1|0_0|0.5|0_0|1|0
-	attN = bottom,RCSTank1-2_4293450424_0|-0.5|0_0|-1|0_0|-0.5|0_0|-1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModulePartVariants
-		isEnabled = True
-		useVariantMass = True
-		stagingEnabled = True
-		selectedVariant = YellowAndWhite
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	RESOURCE
-	{
-		name = MonoPropellant
-		amount = 750
-		maxAmount = 750
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-}
-PART
-{
-	part = RCSTank1-2_4293450424
-	partName = Part
-	persistentId = 2146305087
-	pos = -0.202096835,14.8889217,0.987043619
-	attPos = 0,0,0
-	attPos0 = 0,-1,0
-	rot = 0,0,0,1
-	attRot = 0,0,0,1
-	attRot0 = 0,0,0,1
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	link = RCSBlock.v2_4293431438
-	link = RCSBlock.v2_4293431044
-	link = RCSBlock.v2_4293430954
-	link = RCSBlock.v2_4293430864
-	link = dockingPortLarge_4293431670
-	attN = top,RCSTank1-2_4293450862_0|0.5|0_0|1|0_0|0.5|0_0|1|0
-	attN = bottom,dockingPortLarge_4293431670_0|-0.5|0_0|-1|0_0|-0.5|0_0|-1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModulePartVariants
-		isEnabled = True
-		useVariantMass = True
-		stagingEnabled = True
-		selectedVariant = YellowAndWhite
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	RESOURCE
-	{
-		name = MonoPropellant
-		amount = 750
-		maxAmount = 750
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-}
-PART
-{
-	part = LgRadialSolarPanel_4293447642
-	partName = Part
-	persistentId = 487622647
-	pos = -1.41211283,17.3441219,0.987043679
-	attPos = 0,0,0
-	attPos0 = -1.21001601,-0.0465564728,5.96046448E-08
-	rot = 0.5,-0.5,-0.5,0.5
-	attRot = 0,0,-0.707106769,0.707106769
-	attRot0 = 0.5,-0.5,-0.5,0.5
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = LgRadialSolarPanel_4293447068
-	sym = LgRadialSolarPanel_4293447012
-	sym = LgRadialSolarPanel_4293446956
-	srfN = srfAttach,asasmodule1-2_4293455888,collider,0|0|0,0|0|1,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleDeployableSolarPanel
-		isEnabled = True
-		efficiencyMult = 1
-		launchUT = -1
-		currentRotation = (0, 0, 0, 1)
-		storedAnimationTime = 0
-		storedAnimationSpeed = 0
-		deployState = EXTENDED
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ExtendPanelsAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ExtendAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-			RetractAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = LgRadialSolarPanel_4293447068
-	partName = Part
-	persistentId = 2324829887
-	pos = -0.20209685,17.3441219,2.19705963
-	attPos = 0,0,0
-	attPos0 = -1.49011612E-08,-0.0465564728,1.21001589
-	rot = 0,0,-0.707106829,0.707106829
-	attRot = 0,0,-0.707106769,0.707106769
-	attRot0 = 0,0,-0.707106829,0.707106829
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = LgRadialSolarPanel_4293447012
-	sym = LgRadialSolarPanel_4293446956
-	sym = LgRadialSolarPanel_4293447642
-	srfN = srfAttach,asasmodule1-2_4293455888,collider,0|0|0,0|0|1,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleDeployableSolarPanel
-		isEnabled = True
-		efficiencyMult = 1
-		launchUT = -1
-		currentRotation = (0, 0, 0, 1)
-		storedAnimationTime = 0
-		storedAnimationSpeed = 0
-		deployState = EXTENDED
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ExtendPanelsAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ExtendAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-			RetractAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = LgRadialSolarPanel_4293447012
-	partName = Part
-	persistentId = 1120542779
-	pos = 1.00791919,17.3441219,0.98704344
-	attPos = 0,0,0
-	attPos0 = 1.21001601,-0.0465564728,-1.78813934E-07
-	rot = -0.50000006,0.50000006,-0.5,0.5
-	attRot = 0,0,-0.707106769,0.707106769
-	attRot0 = -0.50000006,0.50000006,-0.5,0.5
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = LgRadialSolarPanel_4293446956
-	sym = LgRadialSolarPanel_4293447642
-	sym = LgRadialSolarPanel_4293447068
-	srfN = srfAttach,asasmodule1-2_4293455888,collider,0|0|0,0|0|1,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleDeployableSolarPanel
-		isEnabled = True
-		efficiencyMult = 1
-		launchUT = -1
-		currentRotation = (0, 0, 0, 1)
-		storedAnimationTime = 0
-		storedAnimationSpeed = 0
-		deployState = EXTENDED
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ExtendPanelsAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ExtendAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-			RetractAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = LgRadialSolarPanel_4293446956
-	partName = Part
-	persistentId = 472429423
-	pos = -0.202096969,17.3441219,-0.222972274
-	attPos = 0,0,0
-	attPos0 = -1.34110451E-07,-0.0465564728,-1.21001589
-	rot = -0.707106829,0.707106829,0,0
-	attRot = 0,0,-0.707106769,0.707106769
-	attRot0 = -0.707106829,0.707106829,0,0
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = LgRadialSolarPanel_4293447642
-	sym = LgRadialSolarPanel_4293447068
-	sym = LgRadialSolarPanel_4293447012
-	srfN = srfAttach,asasmodule1-2_4293455888,collider,0|0|0,0|0|1,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleDeployableSolarPanel
-		isEnabled = True
-		efficiencyMult = 1
-		launchUT = -1
-		currentRotation = (0, 0, 0, 1)
-		storedAnimationTime = 0
-		storedAnimationSpeed = 0
-		deployState = EXTENDED
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ExtendPanelsAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ExtendAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-			RetractAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
 	part = LgRadialSolarPanel_4293448048
 	partName = Part
 	persistentId = 1705184960
-	pos = -1.4096278,16.3642807,0.987043679
+	pos = -1.02075458,20.358532,2.02803683
 	attPos = 0,0,0
 	attPos0 = -1.20753098,0.475358963,5.96046448E-08
 	rot = 0.5,-0.5,-0.5,0.5
@@ -1950,7 +2085,7 @@ PART
 	part = LgRadialSolarPanel_4293446714
 	partName = Part
 	persistentId = 2327926536
-	pos = -0.20209685,16.3642807,2.19457436
+	pos = 0.186776415,20.358532,3.23556757
 	attPos = 0,0,0
 	attPos0 = -1.49011612E-08,0.475358963,1.20753086
 	rot = 0,0,-0.707106829,0.707106829
@@ -2044,7 +2179,7 @@ PART
 	part = LgRadialSolarPanel_4293446658
 	partName = Part
 	persistentId = 1721372441
-	pos = 1.00543416,16.3642807,0.98704344
+	pos = 1.39430737,20.358532,2.02803659
 	attPos = 0,0,0
 	attPos0 = 1.20753098,0.475358963,-1.78813934E-07
 	rot = -0.50000006,0.50000006,-0.5,0.5
@@ -2138,7 +2273,7 @@ PART
 	part = LgRadialSolarPanel_4293446602
 	partName = Part
 	persistentId = 4047943349
-	pos = -0.202096969,16.3642807,-0.220487237
+	pos = 0.186776295,20.358532,0.820505977
 	attPos = 0,0,0
 	attPos0 = -1.34110451E-07,0.475358963,-1.20753086
 	rot = -0.707106829,0.707106829,0,0
@@ -2232,7 +2367,7 @@ PART
 	part = LgRadialSolarPanel_4293449144
 	partName = Part
 	persistentId = 1035112592
-	pos = -1.41231203,15.4400434,0.987043679
+	pos = -1.02343881,19.4342957,2.02803683
 	attPos = 0,0,0
 	attPos0 = -1.21021521,-0.448878288,5.96046448E-08
 	rot = 0.5,-0.5,-0.5,0.5
@@ -2326,7 +2461,7 @@ PART
 	part = LgRadialSolarPanel_4293446192
 	partName = Part
 	persistentId = 429090425
-	pos = -0.20209685,15.4400434,2.19725895
+	pos = 0.186776415,19.4342957,3.23825216
 	attPos = 0,0,0
 	attPos0 = -1.49011612E-08,-0.448878288,1.21021521
 	rot = 0,0,-0.707106829,0.707106829
@@ -2420,7 +2555,7 @@ PART
 	part = LgRadialSolarPanel_4293446136
 	partName = Part
 	persistentId = 2520032597
-	pos = 1.00811839,15.4400434,0.98704344
+	pos = 1.39699161,19.4342957,2.02803659
 	attPos = 0,0,0
 	attPos0 = 1.21021521,-0.448878288,-1.78813934E-07
 	rot = -0.50000006,0.50000006,-0.5,0.5
@@ -2514,7 +2649,7 @@ PART
 	part = LgRadialSolarPanel_4293446080
 	partName = Part
 	persistentId = 3873288797
-	pos = -0.202096969,15.4400434,-0.223171473
+	pos = 0.186776295,19.4342957,0.817821741
 	attPos = 0,0,0
 	attPos0 = -1.34110451E-07,-0.448878288,-1.21021509
 	rot = -0.707106829,0.707106829,0,0
@@ -2605,10 +2740,386 @@ PART
 }
 PART
 {
+	part = LgRadialSolarPanel_4293447642
+	partName = Part
+	persistentId = 487622647
+	pos = -1.02323961,21.3383732,2.02803683
+	attPos = 0,0,0
+	attPos0 = -1.21001601,-0.0465564728,5.96046448E-08
+	rot = 0.5,-0.5,-0.5,0.5
+	attRot = 0,0,-0.707106769,0.707106769
+	attRot0 = 0.5,-0.5,-0.5,0.5
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = LgRadialSolarPanel_4293447068
+	sym = LgRadialSolarPanel_4293447012
+	sym = LgRadialSolarPanel_4293446956
+	srfN = srfAttach,asasmodule1-2_4293455888,collider,0|0|0,0|0|1,0|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		efficiencyMult = 1
+		launchUT = -1
+		currentRotation = (0, 0, 0, 1)
+		storedAnimationTime = 0
+		storedAnimationSpeed = 0
+		deployState = EXTENDED
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = None
+				active = False
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ExtendAction
+			{
+				actionGroup = None
+				active = False
+				wasActiveBeforePartWasAdjusted = False
+			}
+			RetractAction
+			{
+				actionGroup = None
+				active = False
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = LgRadialSolarPanel_4293447068
+	partName = Part
+	persistentId = 2324829887
+	pos = 0.186776415,21.3383732,3.23805285
+	attPos = 0,0,0
+	attPos0 = -1.49011612E-08,-0.0465564728,1.21001589
+	rot = 0,0,-0.707106829,0.707106829
+	attRot = 0,0,-0.707106769,0.707106769
+	attRot0 = 0,0,-0.707106829,0.707106829
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = LgRadialSolarPanel_4293447012
+	sym = LgRadialSolarPanel_4293446956
+	sym = LgRadialSolarPanel_4293447642
+	srfN = srfAttach,asasmodule1-2_4293455888,collider,0|0|0,0|0|1,0|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		efficiencyMult = 1
+		launchUT = -1
+		currentRotation = (0, 0, 0, 1)
+		storedAnimationTime = 0
+		storedAnimationSpeed = 0
+		deployState = EXTENDED
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = None
+				active = False
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ExtendAction
+			{
+				actionGroup = None
+				active = False
+				wasActiveBeforePartWasAdjusted = False
+			}
+			RetractAction
+			{
+				actionGroup = None
+				active = False
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = LgRadialSolarPanel_4293447012
+	partName = Part
+	persistentId = 1120542779
+	pos = 1.39679241,21.3383732,2.02803659
+	attPos = 0,0,0
+	attPos0 = 1.21001601,-0.0465564728,-1.78813934E-07
+	rot = -0.50000006,0.50000006,-0.5,0.5
+	attRot = 0,0,-0.707106769,0.707106769
+	attRot0 = -0.50000006,0.50000006,-0.5,0.5
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = LgRadialSolarPanel_4293446956
+	sym = LgRadialSolarPanel_4293447642
+	sym = LgRadialSolarPanel_4293447068
+	srfN = srfAttach,asasmodule1-2_4293455888,collider,0|0|0,0|0|1,0|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		efficiencyMult = 1
+		launchUT = -1
+		currentRotation = (0, 0, 0, 1)
+		storedAnimationTime = 0
+		storedAnimationSpeed = 0
+		deployState = EXTENDED
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = None
+				active = False
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ExtendAction
+			{
+				actionGroup = None
+				active = False
+				wasActiveBeforePartWasAdjusted = False
+			}
+			RetractAction
+			{
+				actionGroup = None
+				active = False
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = LgRadialSolarPanel_4293446956
+	partName = Part
+	persistentId = 472429423
+	pos = 0.186776295,21.3383732,0.81802094
+	attPos = 0,0,0
+	attPos0 = -1.34110451E-07,-0.0465564728,-1.21001589
+	rot = -0.707106829,0.707106829,0,0
+	attRot = 0,0,-0.707106769,0.707106769
+	attRot0 = -0.707106829,0.707106829,0,0
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = LgRadialSolarPanel_4293447642
+	sym = LgRadialSolarPanel_4293447068
+	sym = LgRadialSolarPanel_4293447012
+	srfN = srfAttach,asasmodule1-2_4293455888,collider,0|0|0,0|0|1,0|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		efficiencyMult = 1
+		launchUT = -1
+		currentRotation = (0, 0, 0, 1)
+		storedAnimationTime = 0
+		storedAnimationSpeed = 0
+		deployState = EXTENDED
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = None
+				active = False
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ExtendAction
+			{
+				actionGroup = None
+				active = False
+				wasActiveBeforePartWasAdjusted = False
+			}
+			RetractAction
+			{
+				actionGroup = None
+				active = False
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
 	part = mumech.MJ2.AR202_4293445198
 	partName = Part
 	persistentId = 1984936490
-	pos = -1.07558322,17.3370972,1.8605299
+	pos = -0.68671,21.3313484,2.90152311
 	attPos = 0,0,0
 	attPos0 = -0.8734864,-0.0535812378,0.87348628
 	rot = -3.42145192E-08,0.382683426,-8.26011686E-08,0.923879564
@@ -2840,7 +3351,7 @@ PART
 	part = RCSBlock.v2_4293441412
 	partName = Part
 	persistentId = 3904215935
-	pos = -1.40110981,17.9853897,0.987043679
+	pos = -1.0122366,21.979641,2.02803683
 	attPos = 0,0,0
 	attPos0 = -1.19901299,0.0947113037,5.96046448E-08
 	rot = 0,0,0,1
@@ -2942,7 +3453,7 @@ PART
 	part = RCSBlock.v2_4293436138
 	partName = Part
 	persistentId = 1183159591
-	pos = -0.20209685,17.9853897,2.18605661
+	pos = 0.186776415,21.979641,3.22704983
 	attPos = 0,0,0
 	attPos0 = -1.49011612E-08,0.0947113037,1.19901288
 	rot = 0,0.707106829,0,0.707106829
@@ -3044,7 +3555,7 @@ PART
 	part = RCSBlock.v2_4293436048
 	partName = Part
 	persistentId = 1707938644
-	pos = 0.996916175,17.9853897,0.98704344
+	pos = 1.38578939,21.979641,2.02803659
 	attPos = 0,0,0
 	attPos0 = 1.19901299,0.0947113037,-1.78813934E-07
 	rot = 0,1,0,-4.37113883E-08
@@ -3146,7 +3657,7 @@ PART
 	part = RCSBlock.v2_4293435958
 	partName = Part
 	persistentId = 3685549387
-	pos = -0.202096969,17.9853897,-0.211969256
+	pos = 0.186776295,21.979641,0.829023957
 	attPos = 0,0,0
 	attPos0 = -1.34110451E-07,0.0947113037,-1.19901288
 	rot = 0,0.707106829,0,-0.707106829
@@ -3248,7 +3759,7 @@ PART
 	part = linearRcs_4293438080
 	partName = Part
 	persistentId = 404734567
-	pos = -1.44049823,18.3145084,0.987043679
+	pos = -1.05162501,22.3087597,2.02803683
 	attPos = 0,0,0
 	attPos0 = -1.23840141,-0.0161705017,5.96046448E-08
 	rot = 0.5,-0.50000006,0.5,0.50000006
@@ -3354,7 +3865,7 @@ PART
 	part = linearRcs_4293434516
 	partName = Part
 	persistentId = 3159748789
-	pos = -1.07777882,18.3145084,1.86272573
+	pos = -0.688905597,22.3087597,2.90371895
 	attPos = 0,0,0
 	attPos0 = -0.875681996,-0.0161705017,0.875682116
 	rot = 0.65328145,-0.270598054,0.270598024,0.653281569
@@ -3460,7 +3971,7 @@ PART
 	part = linearRcs_4293434436
 	partName = Part
 	persistentId = 1382425446
-	pos = -0.20209685,18.3145084,2.22544479
+	pos = 0.186776415,22.3087597,3.26643801
 	attPos = 0,0,0
 	attPos0 = -1.49011612E-08,-0.0161705017,1.23840129
 	rot = 0.707106769,0,0,0.707106829
@@ -3566,7 +4077,7 @@ PART
 	part = linearRcs_4293434356
 	partName = Part
 	persistentId = 3842531371
-	pos = 0.673585176,18.3145084,1.86272562
+	pos = 1.0624584,22.3087597,2.90371895
 	attPos = 0,0,0
 	attPos0 = 0.875681996,-0.0161705017,0.875681996
 	rot = 0.65328145,0.270598084,-0.270598054,0.653281569
@@ -3672,7 +4183,7 @@ PART
 	part = linearRcs_4293434276
 	partName = Part
 	persistentId = 1450800715
-	pos = 1.03630459,18.3145084,0.98704344
+	pos = 1.42517781,22.3087597,2.02803659
 	attPos = 0,0,0
 	attPos0 = 1.23840141,-0.0161705017,-1.78813934E-07
 	rot = 0.49999997,0.50000006,-0.5,0.50000006
@@ -3778,7 +4289,7 @@ PART
 	part = linearRcs_4293434196
 	partName = Part
 	persistentId = 2622102978
-	pos = 0.673585057,18.3145084,0.111361384
+	pos = 1.06245828,22.3087597,1.1523546
 	attPos = 0,0,0
 	attPos0 = 0.875681877,-0.0161705017,-0.875682235
 	rot = 0.270597994,0.653281569,-0.65328151,0.270598024
@@ -3884,7 +4395,7 @@ PART
 	part = linearRcs_4293434116
 	partName = Part
 	persistentId = 4109363393
-	pos = -0.202096969,18.3145084,-0.251357675
+	pos = 0.186776295,22.3087597,0.789635539
 	attPos = 0,0,0
 	attPos0 = -1.34110451E-07,-0.0161705017,-1.23840129
 	rot = 0,0.707106829,-0.707106769,0
@@ -3990,7 +4501,7 @@ PART
 	part = linearRcs_4293434036
 	partName = Part
 	persistentId = 1177246315
-	pos = -1.07777917,18.3145084,0.111361861
+	pos = -0.688905954,22.3087597,1.15235507
 	attPos = 0,0,0
 	attPos0 = -0.875682354,-0.0161705017,-0.875681758
 	rot = -0.270598143,0.65328145,-0.653281391,-0.270598173
@@ -4085,517 +4596,6 @@ PART
 		}
 		ACTIONS
 		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = RCSBlock.v2_4293431438
-	partName = Part
-	persistentId = 324329995
-	pos = -1.40075183,14.6109552,0.987043679
-	attPos = 0,0,0
-	attPos0 = -1.19865501,-0.277966499,5.96046448E-08
-	rot = 0,0,0,1
-	attRot = 0,0,0,1
-	attRot0 = 0,0,0,1
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = RCSBlock.v2_4293431044
-	sym = RCSBlock.v2_4293430954
-	sym = RCSBlock.v2_4293430864
-	srfN = srfAttach,RCSTank1-2_4293450424,collider,-0.00875000004|0|0,0.125|0|0,-0.00875000004|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleRCSFX
-		isEnabled = True
-		rcsEnabled = True
-		thrustPercentage = 100
-		currentShowToggles = False
-		enableYaw = True
-		enablePitch = True
-		enableRoll = True
-		enableX = True
-		enableY = True
-		enableZ = True
-		useThrottle = False
-		fullThrust = False
-		stagingEnabled = False
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleAnimateRCS
-		isEnabled = True
-		stagingEnabled = True
-		animStates = 0,0,0,0
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = RCSBlock.v2_4293431044
-	partName = Part
-	persistentId = 2901591703
-	pos = -0.20209685,14.6109552,2.18569851
-	attPos = 0,0,0
-	attPos0 = -1.49011612E-08,-0.277966499,1.19865489
-	rot = 0,0.707106829,0,0.707106829
-	attRot = 0,0,0,1
-	attRot0 = 0,0.707106829,0,0.707106829
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = RCSBlock.v2_4293430954
-	sym = RCSBlock.v2_4293430864
-	sym = RCSBlock.v2_4293431438
-	srfN = srfAttach,RCSTank1-2_4293450424,collider,-0.00875000004|0|0,0.125|0|0,-0.00875000004|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleRCSFX
-		isEnabled = True
-		rcsEnabled = True
-		thrustPercentage = 100
-		currentShowToggles = False
-		enableYaw = True
-		enablePitch = True
-		enableRoll = True
-		enableX = True
-		enableY = True
-		enableZ = True
-		useThrottle = False
-		fullThrust = False
-		stagingEnabled = False
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleAnimateRCS
-		isEnabled = True
-		stagingEnabled = True
-		animStates = 0,0,0,0
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = RCSBlock.v2_4293430954
-	partName = Part
-	persistentId = 2637475121
-	pos = 0.996558189,14.6109552,0.98704344
-	attPos = 0,0,0
-	attPos0 = 1.19865501,-0.277966499,-1.78813934E-07
-	rot = 0,1,0,-4.37113883E-08
-	attRot = 0,0,0,1
-	attRot0 = 0,1,0,-4.37113883E-08
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = RCSBlock.v2_4293430864
-	sym = RCSBlock.v2_4293431438
-	sym = RCSBlock.v2_4293431044
-	srfN = srfAttach,RCSTank1-2_4293450424,collider,-0.00875000004|0|0,0.125|0|0,-0.00875000004|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleRCSFX
-		isEnabled = True
-		rcsEnabled = True
-		thrustPercentage = 100
-		currentShowToggles = False
-		enableYaw = True
-		enablePitch = True
-		enableRoll = True
-		enableX = True
-		enableY = True
-		enableZ = True
-		useThrottle = False
-		fullThrust = False
-		stagingEnabled = False
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleAnimateRCS
-		isEnabled = True
-		stagingEnabled = True
-		animStates = 0,0,0,0
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = RCSBlock.v2_4293430864
-	partName = Part
-	persistentId = 2084012423
-	pos = -0.202096969,14.6109552,-0.211611271
-	attPos = 0,0,0
-	attPos0 = -1.34110451E-07,-0.277966499,-1.19865489
-	rot = 0,0.707106829,0,-0.707106829
-	attRot = 0,0,0,1
-	attRot0 = 0,0.707106829,0,-0.707106829
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = RCSBlock.v2_4293431438
-	sym = RCSBlock.v2_4293431044
-	sym = RCSBlock.v2_4293430954
-	srfN = srfAttach,RCSTank1-2_4293450424,collider,-0.00875000004|0|0,0.125|0|0,-0.00875000004|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleRCSFX
-		isEnabled = True
-		rcsEnabled = True
-		thrustPercentage = 100
-		currentShowToggles = False
-		enableYaw = True
-		enablePitch = True
-		enableRoll = True
-		enableX = True
-		enableY = True
-		enableZ = True
-		useThrottle = False
-		fullThrust = False
-		stagingEnabled = False
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FXModuleAnimateRCS
-		isEnabled = True
-		stagingEnabled = True
-		animStates = 0,0,0,0
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = dockingPortLarge_4293431670
-	partName = Part
-	persistentId = 2045367522
-	pos = -0.202096835,14.3889217,0.987043619
-	attPos = 0,0,0
-	attPos0 = 0,-0.5,0
-	rot = 1,0,0,0
-	attRot = 0.99999994,0,0,0
-	attRot0 = 1,0,0,0
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = 1
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	attN = top,Null_0_0|0.289999992|0_0|1|0_0|0.289999992|0_0|1|0
-	attN = bottom,RCSTank1-2_4293450424_0|0|0_0|-1|0_0|0|0_0|-1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleDockingNode
-		isEnabled = True
-		acquireForceTweak = 100
-		crossfeed = True
-		stagingEnabled = False
-		state = Ready
-		dockUId = 0
-		dockNodeIdx = 0
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			UndockAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			DecoupleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			MakeReferenceToggle
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			EnableXFeedAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			DisableXFeedAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleXFeedAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
 		}
 		UPGRADESAPPLIED
 		{
