@@ -12,7 +12,7 @@ GAME
 	scene = 5
 	editor = None
 	flag = Squad/Flags/default
-	launchID = 44
+	launchID = 45
 	defaultVABLaunchSite = LaunchPad
 	defaultSPHLaunchSite = Runway
 	modded = True
@@ -1954,7 +1954,7 @@ GAME
 		Science
 		{
 			id = recovery@KerbinFlew
-			title = Recovery of a vessel that survived a flight.
+			title = Recovery of a vessel returned from a flight over Kerbin
 			dsc = 1
 			scv = 0
 			sbv = 5
@@ -4150,7 +4150,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.10.0
-		UT = 325886455.8158344
+		UT = 325886488.77580297
 		activeVessel = 0
 		mapViewFiltering = 31743
 		commNetUIModeTracking = Network
@@ -4198,13 +4198,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
-				ECC = 1
-				INC = 96.925493792678509
-				LPE = 90
-				LAN = 64.385203857142244
-				MNA = 0
-				EPH = 325886440.57584894
+				SMA = 101157.77423587631
+				ECC = 0.99999999999999989
+				INC = 96.925493792678481
+				LPE = 90.000000000000014
+				LAN = 64.505493521741585
+				MNA = 3.1415926207170166
+				EPH = 325886487.01580465
 				REF = 2
 			}
 			PART
@@ -4404,13 +4404,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 101157.88519777502
+				SMA = 101157.88519777468
 				ECC = 0.99999999999999989
-				INC = 96.925038415000216
-				LPE = 90.000000000000014
-				LAN = 64.388235200212534
+				INC = 96.92503841500023
+				LPE = 89.999999999999986
+				LAN = 64.508524864811818
 				MNA = 3.1415926207170166
-				EPH = 325886440.57584894
+				EPH = 325886487.01580465
 				REF = 2
 			}
 			PART
@@ -83588,10 +83588,10 @@ GAME
 					tailMaxWidthRatio = 1
 					tailMaxLengthRatio = 68.324680924415588
 					ionTailMaxWidthRatio = 0.29999999999999999
-					comaWidth = 1324286.6113903602
-					tailWidth = 1324286.6113903602
-					tailLength = 90481460.175721899
-					ionTailWidth = 397285.98341710801
+					comaWidth = 1324346.8386740859
+					tailWidth = 1324346.8386740859
+					tailLength = 90485575.185665414
+					ionTailWidth = 397304.05160222575
 					hasName = False
 					radius = 134.789246
 					seed = 1178805807
@@ -84251,13 +84251,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
-				ECC = 1
-				INC = 89.401539095804878
+				SMA = 160524.01139627054
+				ECC = 0.99999999999999978
+				INC = 89.401539095833698
 				LPE = 90
-				LAN = 339.2731785287649
-				MNA = 0
-				EPH = 325886440.57584894
+				LAN = 339.52835145726328
+				MNA = 3.1415926303452304
+				EPH = 325886487.01580465
 				REF = 6
 			}
 			PART
@@ -92425,7 +92425,7 @@ GAME
 			gExperienced = 0
 			outDueToG = False
 			ToD = 0
-			idx = 1
+			idx = -1
 			extraXP = 0
 			hasHelmetOn = True
 			hasNeckRingOn = True
@@ -92479,7 +92479,7 @@ GAME
 			}
 			CAREER_LOG
 			{
-				flight = 3
+				flight = 4
 				0 = Flight,Kerbin
 				0 = Suborbit,Kerbin
 				0 = Orbit,Kerbin
@@ -92525,10 +92525,11 @@ GAME
 				2 = Escape,Mun
 				2 = Land,Kerbin
 				2 = Recover
+				3 = Recover
 			}
 			FLIGHT_LOG
 			{
-				flight = 3
+				flight = 4
 			}
 		}
 		KERBAL
